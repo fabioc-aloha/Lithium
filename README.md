@@ -61,61 +61,61 @@ The core hypotheses are **supported by strong scientific evidence**, though clin
 
 *For Claudia Correa, Counselor and Principal Investigator*
 
-Claudia, imagine being able to offer your clients something beyond emotional support—a simple, evidence-based intervention that could protect their cognitive health for decades to come. That's what this research is about.
+Claudia, imagine being able to offer your clients something beyond emotional support, a simple, evidence-based intervention that could protect their cognitive health for decades to come. That's what this research is about.
 
 You know better than anyone how dementia devastates families. The spouse who becomes a caregiver. The adult children watching a parent fade. The anticipatory grief that begins years before the loss. As a counselor, you've sat with that pain. But what if we could prevent some of it?
 
-For over a century, lithium has been psychiatry's gold standard for treating bipolar disorder. But something remarkable has emerged from decades of research: **patients on long-term lithium therapy almost never develop Alzheimer's disease**. This isn't coincidence—it's biology.
+For over a century, lithium has been psychiatry's gold standard for treating bipolar disorder. But something remarkable has emerged from decades of research: **patients on long-term lithium therapy almost never develop Alzheimer's disease**. This isn't coincidence, it's biology.
 
 And in September 2025, Harvard researchers published a breakthrough in *Nature* that changes everything.
 
 Here's what the science now shows:
 
-**The breakthrough discovery.** Dr. Bruce Yankner's team at Harvard found that lithium is the *only* metal significantly reduced in the brains of people with mild cognitive impairment. Why? Because **amyloid plaques trap lithium**, creating a local deficiency exactly where the brain needs protection most. When they depleted lithium in mice by just 50%, the animals developed all the hallmarks of Alzheimer's: amyloid deposits, tau tangles, inflamed microglia, lost synapses, and cognitive decline. When they restored lithium—specifically using lithium orotate, which evades plaque binding—**they reversed the damage**. Memory returned. Synapses regrew. This was published in *Nature* (Aron et al., 2025, PMID 40770094).
+**The breakthrough discovery.** Dr. Bruce Yankner's team at Harvard found that lithium is the *only* metal significantly reduced in the brains of people with mild cognitive impairment. Why? Because **amyloid plaques trap lithium**, creating a local deficiency exactly where the brain needs protection most. When they depleted lithium in mice by just 50%, the animals developed all the hallmarks of Alzheimer's: amyloid deposits, tau tangles, inflamed microglia, lost synapses, and cognitive decline. When they restored lithium, specifically using lithium orotate, which evades plaque binding, **they reversed the damage**. Memory returned. Synapses regrew. This was published in *Nature* (Aron et al., 2025, PMID 40770094).
 
-**We have human trial data.** A 4-year randomized controlled trial (Forlenza 2019) followed 61 older adults with mild cognitive impairment. The placebo group declined—memory worsened, function deteriorated. The lithium group? **Stable cognition for 4 years.** Memory and attention actually *improved*. Cerebrospinal fluid markers showed the biological signature of amyloid clearance.
+**We have human trial data.** A 4-year randomized controlled trial (Forlenza 2019) followed 61 older adults with mild cognitive impairment. The placebo group declined, memory worsened, function deteriorated. The lithium group? **Stable cognition for 4 years.** Memory and attention actually *improved*. Cerebrospinal fluid markers showed the biological signature of amyloid clearance.
 
-**Lithium outperforms the new FDA-approved drugs.** A 2024 network meta-analysis (Terao, *Ageing Research Reviews*) compared lithium head-to-head against donanemab, lecanemab, and aducanumab. Lithium showed **better cognitive outcomes, better tolerability, and better acceptability** than all three monoclonal antibodies—drugs that cost $26,000 per year and carry risks of brain swelling and bleeding.
+**Lithium outperforms the new FDA-approved drugs.** A 2024 network meta-analysis (Terao, *Ageing Research Reviews*) compared lithium head-to-head against donanemab, lecanemab, and aducanumab. Lithium showed **better cognitive outcomes, better tolerability, and better acceptability** than all three monoclonal antibodies, drugs that cost $26,000 per year and carry risks of brain swelling and bleeding.
 
 **Geography tells the story.** Regions with higher natural lithium in drinking water show lower rates of dementia. A Denmark study of 800,000 people found 17% lower dementia incidence in high-lithium areas. Similar patterns appear in Texas, Japan, and Portugal. When nature runs the experiment at population scale, the signal is unmistakable.
 
-**The dose is practical.** The neuroprotective dose appears to be a fraction of what's used for bipolar disorder—microdose levels that don't require serum monitoring. Lithium orotate, the form that bypasses plaque sequestration, is available over the counter.
+**The dose is practical.** The neuroprotective dose appears to be a fraction of what's used for bipolar disorder, microdose levels that don't require serum monitoring. Lithium orotate, the form that bypasses plaque sequestration, is available over the counter.
 
-**The NIH is paying attention.** The LATTICE trial at University of Pittsburgh just completed enrollment—80 adults with MCI, 7-Tesla MRI imaging, PET scans for amyloid and tau. Results are expected this year. Dr. Yankner is planning the first human trial of lithium orotate specifically.
+**The NIH is paying attention.** The LATTICE trial at University of Pittsburgh just completed enrollment, 80 adults with MCI, 7-Tesla MRI imaging, PET scans for amyloid and tau. Results are expected this year. Dr. Yankner is planning the first human trial of lithium orotate specifically.
 
 **The gap is getting us from bench to bedside.** That's where we come in.
 
-**This is where your practice becomes essential, Claudia.** Phase 1 of this project starts with you—a feasibility pilot with 20 to 30 of your clients who are concerned about cognitive decline. You're already having these conversations. You already have the trust. What we're adding is a structured way to document safety, tolerability, and early outcomes.
+**This is where your practice becomes essential, Claudia.** Phase 1 of this project starts with you, a feasibility pilot with 20 to 30 of your clients who are concerned about cognitive decline. You're already having these conversations. You already have the trust. What we're adding is a structured way to document safety, tolerability, and early outcomes.
 
-Your professional judgment will guide participant selection. Your therapeutic relationship will support adherence. Your clinical observations will inform the protocol refinements. You're not just hosting this research—you're shaping it.
+Your professional judgment will guide participant selection. Your therapeutic relationship will support adherence. Your clinical observations will inform the protocol refinements. You're not just hosting this research, you're shaping it.
 
 Success in your practice leads to Phase 2: expansion across a network of practitioners. Then Phase 3: formal research collaboration with statistical power for publication.
 
-The stakes are personal and they're enormous. Over 6 million Americans live with Alzheimer's today. By 2050, that number will exceed 13 million. The clients you see this week may face this disease—or watch their parents face it. Current treatments manage symptoms; none prevent progression.
+The stakes are personal and they're enormous. Over 6 million Americans live with Alzheimer's today. By 2050, that number will exceed 13 million. The clients you see this week may face this disease, or watch their parents face it. Current treatments manage symptoms; none prevent progression.
 
 Claudia, you've dedicated your career to helping people through their hardest moments. This is a chance to help them avoid one of the hardest moments of all. The evidence says lithium could be the prevention we've been searching for.
 
-Let's do the work to find out—together.
+Let's do the work to find out, together.
 
 ---
 
 ### For Dr. Phillip Cohen, Physician and Principal Investigator
 
-Phil, I know you've been talking about this for years. The lithium-in-water studies. The neuroprotective mechanisms. The fact that we've had a potential Alzheimer's prevention strategy sitting in our pharmacopeia for a century and no one's doing anything with it. You've been ahead of the curve on this—and now we have a chance to do something about it.
+Phil, I know you've been talking about this for years. The lithium-in-water studies. The neuroprotective mechanisms. The fact that we've had a potential Alzheimer's prevention strategy sitting in our pharmacopeia for a century and no one's doing anything with it. You've been ahead of the curve on this, and now we have a chance to do something about it.
 
 You've also made the connection that most physicians miss: the relationship between recurrent depression and bipolar risk. When a patient has two or more depressive episodes, the probability of eventual bipolar diagnosis increases significantly. And what do we give bipolar patients? Lithium. What does lithium do beyond mood stabilization? It protects the brain from neurodegeneration.
 
-The mechanisms you've been explaining to patients are exactly what the research now confirms—and the *Nature* paper from September 2025 (Aron et al., PMID 40770094) provides the mechanism you always suspected:
+The mechanisms you've been explaining to patients are exactly what the research now confirms, and the *Nature* paper from September 2025 (Aron et al., PMID 40770094) provides the mechanism you always suspected:
 
-**GSK-3β inhibition.** Lithium is one of the most potent known inhibitors of glycogen synthase kinase-3 beta—the enzyme responsible for hyperphosphorylating tau protein. The Yankner team showed this is the primary pathway: when they depleted lithium in mice, GSK-3β activity increased, and tau pathology followed. Lithium directly addresses it at the enzymatic level.
+**GSK-3β inhibition.** Lithium is one of the most potent known inhibitors of glycogen synthase kinase-3 beta, the enzyme responsible for hyperphosphorylating tau protein. The Yankner team showed this is the primary pathway: when they depleted lithium in mice, GSK-3β activity increased, and tau pathology followed. Lithium directly addresses it at the enzymatic level.
 
-**The plaque sequestration problem.** Here's what nobody understood until now: **amyloid plaques trap lithium**. The Harvard team found that lithium is the *only* metal significantly reduced in MCI brains—because plaques sequester it away from healthy tissue. This explains why standard lithium carbonate has shown inconsistent results: by the time AD develops, the lithium can't get where it's needed. **Lithium orotate bypasses this trap.** In their mouse models, carbonate showed little effect while orotate reversed pathology.
+**The plaque sequestration problem.** Here's what nobody understood until now: **amyloid plaques trap lithium**. The Harvard team found that lithium is the *only* metal significantly reduced in MCI brains, because plaques sequester it away from healthy tissue. This explains why standard lithium carbonate has shown inconsistent results: by the time AD develops, the lithium can't get where it's needed. **Lithium orotate bypasses this trap.** In their mouse models, carbonate showed little effect while orotate reversed pathology.
 
-**Autophagy induction.** Lithium promotes cellular cleanup through mTOR-independent autophagy pathways. This clears misfolded proteins before they aggregate—the housekeeping function that fails in aging brains.
+**Autophagy induction.** Lithium promotes cellular cleanup through mTOR-independent autophagy pathways. This clears misfolded proteins before they aggregate, the housekeeping function that fails in aging brains.
 
-**Neurotrophic effects.** Lithium increases BDNF and promotes neurogenesis in the hippocampus—the very region that degenerates first in Alzheimer's. The mice treated with lithium orotate showed **synapse restoration** in aged, wild-type animals.
+**Neurotrophic effects.** Lithium increases BDNF and promotes neurogenesis in the hippocampus, the very region that degenerates first in Alzheimer's. The mice treated with lithium orotate showed **synapse restoration** in aged, wild-type animals.
 
-The epidemiological data you've cited holds up. Denmark's nationwide study (Kessing 2017, n=800,000) showed 17% reduced dementia in high-lithium municipalities. The Kessing 2008 bipolar cohort (~5,000 patients) showed lithium users had significantly lower dementia rates—an effect *not seen* with anticonvulsants, antidepressants, or antipsychotics. The lithium effect is specific.
+The epidemiological data you've cited holds up. Denmark's nationwide study (Kessing 2017, n=800,000) showed 17% reduced dementia in high-lithium municipalities. The Kessing 2008 bipolar cohort (~5,000 patients) showed lithium users had significantly lower dementia rates, an effect *not seen* with anticonvulsants, antidepressants, or antipsychotics. The lithium effect is specific.
 
 **And now we have RCT confirmation.** Forlenza's 4-year trial of subtherapeutic lithium in MCI: placebo declined, lithium stayed stable. Memory improved. CSF amyloid markers showed clearance. Terao's 2024 network meta-analysis comparing lithium to the FDA-approved monoclonal antibodies (donanemab, lecanemab, aducanumab): **lithium showed better efficacy on MMSE, better tolerability, better acceptability.** The $26,000/year drugs with brain swelling risk were outperformed by an off-patent mineral.
 
@@ -123,9 +123,9 @@ The epidemiological data you've cited holds up. Denmark's nationwide study (Kess
 
 **The LATTICE trial results are coming.** University of Pittsburgh, 80 participants, 7-Tesla MRI, PET imaging for amyloid and tau. Expected this year. Yankner's team is planning the first human lithium orotate trial.
 
-**The window is open.** The science is converging. The formulation question is answered (orotate). The dose question is answerable (microdose range). What's missing is clinical translation—and that's exactly what you've been waiting for.
+**The window is open.** The science is converging. The formulation question is answered (orotate). The dose question is answerable (microdose range). What's missing is clinical translation, and that's exactly what you've been waiting for.
 
-That's where we come in. Practitioner-based research, starting with a feasibility pilot—20 to 30 participants in a counseling practice setting. Claudia Correa handles recruitment and retention. Robert Dibble's psychology practice provides the organizational infrastructure for Phase 2 expansion. You provide the medical oversight you've always wanted to bring to this: inclusion criteria, safety monitoring, adverse event protocols, clinical legitimacy.
+That's where we come in. Practitioner-based research, starting with a feasibility pilot, 20 to 30 participants in a counseling practice setting. Claudia Correa handles recruitment and retention. Robert Dibble's psychology practice provides the organizational infrastructure for Phase 2 expansion. You provide the medical oversight you've always wanted to bring to this: inclusion criteria, safety monitoring, adverse event protocols, clinical legitimacy.
 
 Phil, you've spent years educating patients about something most of medicine has ignored. This is the chance to stop just talking about it and start documenting it. Your clinical judgment makes this legitimate. Your documentation standards make it publishable. Your professional network gets us to Phase 2 and 3.
 
@@ -135,29 +135,29 @@ The evidence has always been there. You knew that. Let's build the clinical path
 
 ### For Robert Dibble, Psychologist and Practice Director
 
-Robert, I'm coming to you because this research opportunity could be significant for your practice—and because Claudia is eager to lead the clinical implementation. The topic is lithium and Alzheimer's prevention.
+Robert, I'm coming to you because this research opportunity could be significant for your practice, and because Claudia is eager to lead the clinical implementation. The topic is lithium and Alzheimer's prevention.
 
-As the director of a multi-practitioner psychology practice, you're in a unique position. You have the organizational infrastructure, the clinical talent, and the patient volume to conduct meaningful practitioner-based research. Claudia has brought this to you because she sees the potential—and because moving forward requires your leadership.
+As the director of a multi-practitioner psychology practice, you're in a unique position. You have the organizational infrastructure, the clinical talent, and the patient volume to conduct meaningful practitioner-based research. Claudia has brought this to you because she sees the potential, and because moving forward requires your leadership.
 
 Let me give you the scientific foundation so you can evaluate it properly.
 
-**The mechanistic case just got a lot stronger.** In September 2025, Harvard researchers published in *Nature* what may be the most important Alzheimer's finding in a decade (Aron et al., PMID 40770094). They discovered that lithium is the *only* metal significantly depleted in the brains of people with mild cognitive impairment—because **amyloid plaques trap lithium**, starving healthy tissue of the very element that protects against neurodegeneration. When they restored lithium using a specific form (lithium orotate, which evades plaque binding), they reversed pathology in mice: synapses regrew, memory returned, tau tangles cleared.
+**The mechanistic case just got a lot stronger.** In September 2025, Harvard researchers published in *Nature* what may be the most important Alzheimer's finding in a decade (Aron et al., PMID 40770094). They discovered that lithium is the *only* metal significantly depleted in the brains of people with mild cognitive impairment, because **amyloid plaques trap lithium**, starving healthy tissue of the very element that protects against neurodegeneration. When they restored lithium using a specific form (lithium orotate, which evades plaque binding), they reversed pathology in mice: synapses regrew, memory returned, tau tangles cleared.
 
 **We have 4-year human data.** Forlenza's randomized controlled trial (2019, *British Journal of Psychiatry*) followed 61 older adults with MCI for 4 years. Placebo group: progressive decline in memory, attention, and function. Lithium group: **stable cognition for 4 years**. Memory and attention actually improved. CSF biomarkers showed amyloid clearance.
 
 **Lithium beats the FDA-approved drugs.** A 2024 network meta-analysis (Terao, *Ageing Research Reviews*, n=6,547 across 8 RCTs) compared lithium against donanemab, lecanemab, and aducanumab. Results: lithium showed better cognitive outcomes on MMSE, better tolerability than all three antibodies, better acceptability than all three. The drugs that cost $26,000/year and carry brain swelling risks were outperformed by an off-patent mineral.
 
-**The epidemiology is consistent.** Denmark's nationwide study (Kessing 2017, n=800,000) found 17% lower dementia incidence in high-lithium municipalities. The Kessing 2008 bipolar cohort showed lithium users had reduced dementia risk—an effect *not seen* with anticonvulsants, antidepressants, or antipsychotics.
+**The epidemiology is consistent.** Denmark's nationwide study (Kessing 2017, n=800,000) found 17% lower dementia incidence in high-lithium municipalities. The Kessing 2008 bipolar cohort showed lithium users had reduced dementia risk, an effect *not seen* with anticonvulsants, antidepressants, or antipsychotics.
 
-**Here's what Claudia would be doing.** Phase 1 is a feasibility pilot—20 to 30 of her clients who are concerned about cognitive decline. She'd handle recruitment through existing therapeutic relationships, support adherence through ongoing sessions, and document safety, tolerability, and early outcomes. Dr. Phillip Cohen provides medical oversight.
+**Here's what Claudia would be doing.** Phase 1 is a feasibility pilot, 20 to 30 of her clients who are concerned about cognitive decline. She'd handle recruitment through existing therapeutic relationships, support adherence through ongoing sessions, and document safety, tolerability, and early outcomes. Dr. Phillip Cohen provides medical oversight.
 
-**Why this fits Claudia's practice.** She's already having these conversations with clients. The fear of cognitive decline comes up in therapy constantly—especially with clients caring for aging parents or noticing their own memory changes. What we're adding is a structured intervention and documentation framework.
+**Why this fits Claudia's practice.** She's already having these conversations with clients. The fear of cognitive decline comes up in therapy constantly, especially with clients caring for aging parents or noticing their own memory changes. What we're adding is a structured intervention and documentation framework.
 
-**You're right about the pituitary concern.** I know you've raised concerns about lithium's endocrine effects—and the research validates your clinical intuition. Lithium does affect the hypothalamic-pituitary-thyroid axis, potentially increasing TSH and causing subclinical hypothyroidism. It can influence the HPA axis (cortisol, ACTH) and the HPG axis (LH, FSH, prolactin). These are legitimate considerations. But here's the key: these effects are documented primarily at psychiatric doses, not at the trace-element levels we're proposing. Our protocol includes baseline and follow-up thyroid panels specifically because of these concerns. Dr. Cohen's medical oversight addresses exactly what you've identified. Your caution isn't an obstacle to this research—it's why you should be overseeing it.
+**You're right about the pituitary concern.** I know you've raised concerns about lithium's endocrine effects, and the research validates your clinical intuition. Lithium does affect the hypothalamic-pituitary-thyroid axis, potentially increasing TSH and causing subclinical hypothyroidism. It can influence the HPA axis (cortisol, ACTH) and the HPG axis (LH, FSH, prolactin). These are legitimate considerations. But here's the key: these effects are documented primarily at psychiatric doses, not at the trace-element levels we're proposing. Our protocol includes baseline and follow-up thyroid panels specifically because of these concerns. Dr. Cohen's medical oversight addresses exactly what you've identified. Your caution isn't an obstacle to this research, it's why you should be overseeing it.
 
-**Your role as Practice Director.** Phase 1 starts with Claudia and 20 to 30 participants. But if this works, Phase 2 is multi-practitioner—and your practice is the natural home for that expansion. Your other clinicians could implement the protocol with their own clients. Your organizational systems could standardize data collection. Your professional reputation could attract collaborators for Phase 3.
+**Your role as Practice Director.** Phase 1 starts with Claudia and 20 to 30 participants. But if this works, Phase 2 is multi-practitioner, and your practice is the natural home for that expansion. Your other clinicians could implement the protocol with their own clients. Your organizational systems could standardize data collection. Your professional reputation could attract collaborators for Phase 3.
 
-This isn't just Claudia's project. It's an opportunity to position your practice at the forefront of preventive mental health research. Dementia prevention through a psychological practice—that's a differentiator. That's a story. That's the kind of work that attracts talented clinicians and engaged clients.
+This isn't just Claudia's project. It's an opportunity to position your practice at the forefront of preventive mental health research. Dementia prevention through a psychological practice, that's a differentiator. That's a story. That's the kind of work that attracts talented clinicians and engaged clients.
 
 I'd like you to provide oversight of the research protocol. Review it for ethical soundness and clinical appropriateness. Ensure Claudia has the support she needs. And when Phase 1 succeeds, help us scale it across your team.
 
@@ -169,26 +169,41 @@ Robert, you've built a practice that balances clinical excellence with innovatio
 
 *From Claudia Correa to Dr. Phillip Cohen and Robert Dibble*
 
-Phil, Robert—I'm bringing you both together because this is bigger than any of us can do alone, and we finally have the infrastructure to make it happen.
+Phil, Robert: I'm bringing you both together because this is bigger than any of us can do alone, and we finally have the infrastructure to make it happen.
 
-**The science has arrived.** In September 2025, Harvard published in *Nature* what Phil has been saying for years: lithium protects the brain. But now we know *why* it hasn't worked consistently before—amyloid plaques trap lithium, starving the tissue that needs it most. Lithium orotate bypasses that trap. In mice, it reversed Alzheimer's pathology. The 4-year Forlenza trial showed stable cognition in humans. The network meta-analysis showed lithium outperforms the new $26,000/year FDA drugs. The evidence is here.
+**The science has arrived.** In September 2025, Harvard published in *Nature* what Phil has been saying for years: lithium protects the brain (Aron et al., *Nature* 2025, PMID 40770094). But now we know *why* it hasn't worked consistently: amyloid plaques trap lithium, starving the tissue that needs it most. Lithium is the *only* metal significantly reduced in MCI brains. When Yankner's team depleted lithium by just 50% in mice, the animals developed amyloid deposits, tau tangles, microglial inflammation, and cognitive decline. Lithium orotate, which evades plaque binding, reversed the damage. Synapses regrew. Memory returned.
 
-**Here's what I'm proposing.** Phase 1 starts with my practice—20 to 30 clients who are already worried about cognitive decline. I handle recruitment and retention through existing therapeutic relationships. Phil, you provide the medical oversight you've always wanted to bring to this: inclusion criteria, safety protocols, thyroid monitoring—addressing the pituitary concerns Robert has rightly raised. Robert, your organizational infrastructure scales this to Phase 2 when we're ready.
+**The human data is compelling:**
+
+- **Forlenza 2019** (*Br J Psychiatry*, PMID 30947755): 61 older adults with MCI, randomized, 4-year follow-up. Placebo group declined. Lithium group: **stable cognition for 4 years**. Memory and attention improved. CSF amyloid markers showed clearance.
+- **Nunes 2013** (*Curr Alzheimer Res*, PMID 22746245): 40 AD patients, 15 months, **microdose lithium (300 µg/day)**, a fraction of psychiatric doses. Result: cognitive stabilization.
+- **Terao 2024** (*Ageing Res Rev*, PMID 38253184): Network meta-analysis of 8 RCTs, 6,547 participants. Lithium vs. donanemab, lecanemab, aducanumab. Result: **lithium showed better MMSE scores, better tolerability, better acceptability** than all three FDA-approved antibodies.
+- **Matsunaga 2015** (*J Alzheimers Dis*, PMID 26402004): Meta-analysis of 3 RCTs, 232 subjects. Standardized mean difference: **-0.41 favoring lithium** (p=0.04).
+
+**The epidemiology is consistent across populations:**
+
+- **Denmark** (Kessing 2017, *JAMA Psychiatry*, PMID 28832877): 73,731 dementia patients + 733,653 controls. High-lithium municipalities: **17% lower dementia incidence**.
+- **Denmark bipolar cohort** (Kessing 2008, *Arch Gen Psychiatry*, PMID 18981345): ~5,000 patients. Lithium users had significantly reduced dementia risk, an effect **not seen with anticonvulsants, antidepressants, or antipsychotics**. The lithium effect is specific.
+- **Texas, Japan, Portugal**: Independent replications showing the same directional finding.
+
+**The LATTICE trial just completed enrollment** (Gildengers 2025, *Alzheimers Dement*, PMID 40501510): 80 adults with MCI, University of Pittsburgh, 7-Tesla MRI, PET imaging for amyloid and tau. Results expected this year. Yankner is planning the first human lithium orotate trial.
+
+**Here's what I'm proposing.** Phase 1 starts with Lahai's client base: 20 to 30 people who are already worried about cognitive decline. Lahai has the patient volume; I help with triage and recruitment, screening for appropriate candidates through therapeutic relationships. Phil, you provide the medical oversight you've always wanted to bring to this: inclusion criteria, safety protocols, thyroid monitoring. Robert, your organizational infrastructure helps scale this to Phase 2 when we're ready.
 
 **We don't have to do the heavy lifting alone.** Fabio and Alex are already building the research infrastructure:
 
 - **Literature synthesis**: 14 primary sources systematically reviewed, evidence matrices compiled, hypothesis validation complete
 - **Protocol development**: Study design, data collection frameworks, IRB-ready documentation
-- **AI-augmented analysis**: Alex processes the research with speed and precision—identifying gaps, generating summaries, connecting findings across neuroscience, pharmacology, and clinical practice
+- **AI-augmented analysis**: Alex processes the research with speed and precision, identifying gaps, generating summaries, connecting findings across neuroscience, pharmacology, and clinical practice
 - **Grant preparation**: Funding applications, budget development, timeline coordination for Phase 2 and 3
 
 What would take us months of evenings and weekends is already underway.
 
-**Lahai is the natural home for this.** We're a non-profit serving the community. We're not constrained by pharma conflicts or institutional bureaucracy. We have the clinical talent, the organizational capacity, and now the research support to run practitioner-based trials. Lahai becomes the hub—your practices feed into a unified protocol, and we build something publishable together.
+**Lahai is the natural home for this.** We're a non-profit serving the community. We're not constrained by pharma conflicts or institutional bureaucracy. We have the clinical talent, the organizational capacity, and now the research support to run practitioner-based trials. Lahai becomes the hub. Your practices feed into a unified protocol, and we build something publishable together.
 
 **Phil**, you've been ahead of the curve on lithium for years. This is where you stop explaining and start documenting.
 
-**Robert**, your caution about endocrine effects is exactly why you should be overseeing this. We've built thyroid monitoring into the protocol because of you.
+**Robert**, I know you're thoughtful about safety, and lithium does have real endocrine considerations. That's exactly why we need your oversight. We've built thyroid monitoring into the protocol because these concerns are legitimate and deserve rigorous tracking.
 
 **The three of us**, with Fabio's coordination and Alex's research support, can do what the pharmaceutical industry won't: translate an unpatentable discovery into clinical practice.
 

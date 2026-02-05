@@ -37,6 +37,18 @@
             "relationship": "complements",
             "strength": "weak",
             "context": "Hearing prose helps catch rhythm issues"
+        },
+        {
+            "target": "gamma-presentations",
+            "relationship": "enables",
+            "strength": "strong",
+            "context": "Audio playback of pitch content for rehearsal and delivery - validated 2026-02-05"
+        },
+        {
+            "target": "project-management",
+            "relationship": "supports",
+            "strength": "moderate",
+            "context": "Stakeholder pitch presentations generated as audio files"
         }
     ],
     "activationTriggers": [
