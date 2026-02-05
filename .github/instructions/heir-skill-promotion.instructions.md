@@ -37,6 +37,11 @@ Create a similar skill for [domain] in `.github/skills/[skill-name]/`.
 Include the gotchas you discovered.
 ```
 
+**Promotion-Ready Markers** (add to skill when ready):
+- In `SKILL.md` frontmatter: Add "For Master Alex" section explaining *why* to promote
+- In `synapses.json`: Add `"promotionReady": true` and `"promotionNotes": "..."` 
+- Create `README.md`: Quick-start guide for sharing (dependencies, installation, usage)
+
 ### 4. Master Reviews
 - Is it generalizable beyond this project?
 - Are the patterns reusable?
