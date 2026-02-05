@@ -1,5 +1,7 @@
 # Lithium and Alzheimer's Disease Prevention Research
 
+![Lithium & Alzheimer's Disease Prevention Research](assets/banner.svg)
+
 **Project**: Systematic Evidence Review and Meta-Analysis Framework
 **Principal Investigators**: Correa/Cohen/Deeble Family Research Team
 **Date**: February 5, 2026
@@ -157,6 +159,8 @@ Evaluate the scientific evidence for lithium supplementation as a preventive int
 Lithium/
 ├── README.md                          # This document
 ├── input.txt                          # Original hypothesis document
+├── assets/
+│   └── banner.svg                     # Project banner
 ├── research/
 │   └── RESEARCH-PROTOCOL.md           # Research methodology
 ├── literature/
