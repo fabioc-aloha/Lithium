@@ -13,7 +13,7 @@
 
 This research project investigates the hypothesis that **lithium deficiency contributes to Alzheimer's disease (AD) pathogenesis** and that **low-dose lithium supplementation may prevent or slow cognitive decline**.
 
-### Research Status: **HYPOTHESIS VERIFIED** ✅
+### Research Status: **EVIDENCE STRONG** ✅ | **TRIALS PENDING** ⏳
 
 The core hypotheses are **supported by strong scientific evidence**, though clinical translation is pending large-scale human trials.
 

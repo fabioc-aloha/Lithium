@@ -71,22 +71,56 @@
   </g>
   
   <!-- Main title -->
-  <text x="400" y="70" font-family="'Palatino Linotype', 'Book Antiqua', Palatino, Georgia, serif" font-size="38" font-weight="bold" fill="url(#titleGradient)" text-anchor="middle" letter-spacing="1" filter="url(#textShadow)">
+  <text x="400" y="58" font-family="'Palatino Linotype', 'Book Antiqua', Palatino, Georgia, serif" font-size="38" font-weight="bold" fill="url(#titleGradient)" text-anchor="middle" letter-spacing="1" filter="url(#textShadow)">
     Lithium &amp; Alzheimer's Disease
   </text>
   
   <!-- Subtitle -->
-  <text x="400" y="105" font-family="'Segoe UI', Calibri, 'Helvetica Neue', Arial, sans-serif" font-size="16" fill="#90cdf4" text-anchor="middle" letter-spacing="3" font-weight="300" filter="url(#subtleShadow)">
+  <text x="400" y="99" font-family="'Segoe UI', Calibri, 'Helvetica Neue', Arial, sans-serif" font-size="16" fill="#90cdf4" text-anchor="middle" letter-spacing="3" font-weight="300" filter="url(#subtleShadow)">
     PREVENTION RESEARCH PROJECT
   </text>
   
-  <!-- Status badge -->
-  <g transform="translate(400, 150)">
-    <rect x="-95" y="-14" width="190" height="28" rx="14" fill="#38a169"/>
-    <rect x="-93" y="-12" width="186" height="24" rx="12" fill="#48bb78"/>
-    <text x="0" y="5" font-family="'Segoe UI', Calibri, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#ffffff" text-anchor="middle" letter-spacing="1.5">
-      HYPOTHESIS VERIFIED ✓
-    </text>
+  <!-- Status badges - single centered row with uniform 10px gaps -->
+  <g transform="translate(400, 140)">
+    <!-- Badge 1: Sources (blue) - width 84 -->
+    <g transform="translate(-193, 0)">
+      <rect x="-42" y="-11" width="84" height="22" rx="11" fill="#2b6cb0"/>
+      <text x="0" y="4" font-family="'Segoe UI', Calibri, 'Helvetica Neue', Arial, sans-serif" font-size="10" font-weight="600" fill="#ffffff" text-anchor="middle" letter-spacing="0.5">
+        14 SOURCES
+      </text>
+    </g>
+    
+    <!-- Badge 2: RCTs (teal) - width 60 -->
+    <g transform="translate(-111, 0)">
+      <rect x="-30" y="-11" width="60" height="22" rx="11" fill="#319795"/>
+      <text x="0" y="4" font-family="'Segoe UI', Calibri, 'Helvetica Neue', Arial, sans-serif" font-size="10" font-weight="600" fill="#ffffff" text-anchor="middle" letter-spacing="0.5">
+        5 RCTs
+      </text>
+    </g>
+    
+    <!-- Badge 3: Meta-analyses (purple) - width 110 -->
+    <g transform="translate(-16, 0)">
+      <rect x="-55" y="-11" width="110" height="22" rx="11" fill="#805ad5"/>
+      <text x="0" y="4" font-family="'Segoe UI', Calibri, 'Helvetica Neue', Arial, sans-serif" font-size="10" font-weight="600" fill="#ffffff" text-anchor="middle" letter-spacing="0.5">
+        3 META-ANALYSES
+      </text>
+    </g>
+    
+    <!-- Badge 4: Evidence (green) - width 80 -->
+    <g transform="translate(89, 0)">
+      <rect x="-40" y="-11" width="80" height="22" rx="11" fill="#38a169"/>
+      <text x="0" y="4" font-family="'Segoe UI', Calibri, 'Helvetica Neue', Arial, sans-serif" font-size="10" font-weight="600" fill="#ffffff" text-anchor="middle" letter-spacing="0.5">
+        STRONG
+      </text>
+    </g>
+    
+    <!-- Badge 5: Clinical status (amber) - width 96 -->
+    <g transform="translate(187, 0)">
+      <rect x="-48" y="-11" width="96" height="22" rx="11" fill="#d69e2e"/>
+      <text x="0" y="4" font-family="'Segoe UI', Calibri, 'Helvetica Neue', Arial, sans-serif" font-size="10" font-weight="600" fill="#ffffff" text-anchor="middle" letter-spacing="0.5">
+        PENDING RCT
+      </text>
+    </g>
   </g>
   
   <!-- Brain icon (simplified) -->

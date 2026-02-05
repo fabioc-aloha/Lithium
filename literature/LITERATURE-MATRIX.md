@@ -170,7 +170,7 @@ This matrix provides a comprehensive, systematic organization of all literature 
 
 ## Part 8: Timeline of Key Publications
 
-```
+```text
 2008 ─── Kessing bipolar registry (Denmark): Li protects vs dementia
     │
 2009 ─── Hampel RCT: Negative (10 wks too short)
