@@ -165,6 +165,39 @@ Robert, you've built a practice that balances clinical excellence with innovatio
 
 ---
 
+### Combined Pitch: Claudia to Phil and Robert
+
+*From Claudia Correa to Dr. Phillip Cohen and Robert Dibble*
+
+Phil, Robert—I'm bringing you both together because this is bigger than any of us can do alone, and we finally have the infrastructure to make it happen.
+
+**The science has arrived.** In September 2025, Harvard published in *Nature* what Phil has been saying for years: lithium protects the brain. But now we know *why* it hasn't worked consistently before—amyloid plaques trap lithium, starving the tissue that needs it most. Lithium orotate bypasses that trap. In mice, it reversed Alzheimer's pathology. The 4-year Forlenza trial showed stable cognition in humans. The network meta-analysis showed lithium outperforms the new $26,000/year FDA drugs. The evidence is here.
+
+**Here's what I'm proposing.** Phase 1 starts with my practice—20 to 30 clients who are already worried about cognitive decline. I handle recruitment and retention through existing therapeutic relationships. Phil, you provide the medical oversight you've always wanted to bring to this: inclusion criteria, safety protocols, thyroid monitoring—addressing the pituitary concerns Robert has rightly raised. Robert, your organizational infrastructure scales this to Phase 2 when we're ready.
+
+**We don't have to do the heavy lifting alone.** Fabio and Alex are already building the research infrastructure:
+
+- **Literature synthesis**: 14 primary sources systematically reviewed, evidence matrices compiled, hypothesis validation complete
+- **Protocol development**: Study design, data collection frameworks, IRB-ready documentation
+- **AI-augmented analysis**: Alex processes the research with speed and precision—identifying gaps, generating summaries, connecting findings across neuroscience, pharmacology, and clinical practice
+- **Grant preparation**: Funding applications, budget development, timeline coordination for Phase 2 and 3
+
+What would take us months of evenings and weekends is already underway.
+
+**Lahai is the natural home for this.** We're a non-profit serving the community. We're not constrained by pharma conflicts or institutional bureaucracy. We have the clinical talent, the organizational capacity, and now the research support to run practitioner-based trials. Lahai becomes the hub—your practices feed into a unified protocol, and we build something publishable together.
+
+**Phil**, you've been ahead of the curve on lithium for years. This is where you stop explaining and start documenting.
+
+**Robert**, your caution about endocrine effects is exactly why you should be overseeing this. We've built thyroid monitoring into the protocol because of you.
+
+**The three of us**, with Fabio's coordination and Alex's research support, can do what the pharmaceutical industry won't: translate an unpatentable discovery into clinical practice.
+
+The evidence says lithium could be the Alzheimer's prevention we've been searching for. Lahai can be where we prove it.
+
+Let's do this together.
+
+---
+
 ## Study Goals
 
 ### Primary Goal
