@@ -15,7 +15,7 @@ All investigators are affiliated with [Lahai Health](https://lahai.org), a non-p
 | Name | Title | Role |
 | --- | --- | --- |
 | Claudia Correa | Counselor | Phase 1 Clinical Lead |
-| Robert Dibble | Psychologist, Practice Director | Research Oversight |
+| Robert Deeble | Psychologist, Practice Director | Research Oversight |
 | Phillip Cohen | Physician | Medical Director |
 | Fabio Correa | Researcher | Research Coordination & AI Integration |
 
@@ -125,7 +125,7 @@ The epidemiological data you've cited holds up. Denmark's nationwide study (Kess
 
 **The window is open.** The science is converging. The formulation question is answered (orotate). The dose question is answerable (microdose range). What's missing is clinical translation, and that's exactly what you've been waiting for.
 
-That's where we come in. Practitioner-based research, starting with a feasibility pilot, 20 to 30 participants in a counseling practice setting. Claudia Correa handles recruitment and retention. Robert Dibble's psychology practice provides the organizational infrastructure for Phase 2 expansion. You provide the medical oversight you've always wanted to bring to this: inclusion criteria, safety monitoring, adverse event protocols, clinical legitimacy.
+That's where we come in. Practitioner-based research, starting with a feasibility pilot, 20 to 30 participants in a counseling practice setting. Claudia Correa handles recruitment and retention. Robert Deeble's psychology practice provides the organizational infrastructure for Phase 2 expansion. You provide the medical oversight you've always wanted to bring to this: inclusion criteria, safety monitoring, adverse event protocols, clinical legitimacy.
 
 Phil, you've spent years educating patients about something most of medicine has ignored. This is the chance to stop just talking about it and start documenting it. Your clinical judgment makes this legitimate. Your documentation standards make it publishable. Your professional network gets us to Phase 2 and 3.
 
@@ -133,7 +133,7 @@ The evidence has always been there. You knew that. Let's build the clinical path
 
 ---
 
-### For Robert Dibble, Psychologist and Practice Director
+### For Robert Deeble, Psychologist and Practice Director
 
 Robert, I'm coming to you because this research opportunity could be significant for your practice, and because Claudia is eager to lead the clinical implementation. The topic is lithium and Alzheimer's prevention.
 
@@ -167,7 +167,7 @@ Robert, you've built a practice that balances clinical excellence with innovatio
 
 ### Combined Pitch: Claudia to Phil and Robert
 
-*From Claudia Correa to Dr. Phillip Cohen and Robert Dibble*
+*From Claudia Correa to Dr. Phillip Cohen and Robert Deeble*
 
 Phil, Robert: I'm bringing you both together because this is bigger than any of us can do alone, and we finally have the infrastructure to make it happen.
 
@@ -355,6 +355,16 @@ Lithium/
 ├── input.txt                          # Original hypothesis document
 ├── assets/
 │   └── banner.svg                     # Project banner
+├── clinical/                          # Phase 1 trial documents
+│   ├── IRB-PROTOCOL.md                # Full IRB submission protocol
+│   ├── IRB-SELECTION-GUIDE.md         # ⚠️ External IRB options & decision
+│   ├── INFORMED-CONSENT.md            # Participant consent form (English)
+│   ├── INFORMED-CONSENT-ES.md         # Participant consent form (Spanish)
+│   ├── INFORMED-CONSENT-PT.md         # Participant consent form (Portuguese)
+│   ├── CASE-REPORT-FORMS.md           # Data collection forms
+│   ├── SCREENING-CHECKLIST.md         # Clinician quick reference
+│   ├── MASTER-CHECKLIST.md            # Project tracking & milestones
+│   └── FUNDING-STRATEGY.md            # Grants, backers, budget
 ├── research/
 │   └── RESEARCH-PROTOCOL.md           # Research methodology
 ├── literature/
@@ -380,6 +390,15 @@ Lithium/
 | --- | --- |
 | [Executive Summary](docs/EXECUTIVE-SUMMARY.md) | TL;DR for stakeholders |
 | [Study Goals](docs/STUDY-GOALS.md) | Detailed implementation plan |
+| [IRB Protocol](clinical/IRB-PROTOCOL.md) | Phase 1 trial protocol |
+| [IRB Selection Guide](clinical/IRB-SELECTION-GUIDE.md) | ⚠️ External IRB options (decision required) |
+| [Informed Consent](clinical/INFORMED-CONSENT.md) | Participant consent form (English) |
+| [Consentimiento](clinical/INFORMED-CONSENT-ES.md) | Participant consent form (Spanish) |
+| [Consentimento](clinical/INFORMED-CONSENT-PT.md) | Participant consent form (Portuguese) |
+| [Case Report Forms](clinical/CASE-REPORT-FORMS.md) | Data collection templates |
+| [Screening Checklist](clinical/SCREENING-CHECKLIST.md) | Clinician quick reference |
+| [Master Checklist](clinical/MASTER-CHECKLIST.md) | Project tracking & milestones |
+| [Funding Strategy](clinical/FUNDING-STRATEGY.md) | Grants, backers, budget |
 | [Literature Matrix](literature/LITERATURE-MATRIX.md) | Full source matrix |
 | [Primary Sources](literature/PRIMARY-SOURCES.md) | Detailed source review |
 | [Evidence Synthesis](analysis/EVIDENCE-SYNTHESIS.md) | Hypothesis evaluation |

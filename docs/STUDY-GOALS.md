@@ -18,9 +18,11 @@ Evaluate the feasibility, safety, and preliminary efficacy of low-dose lithium o
 
 ### Goals
 
+> ⚠️ **Note**: Lahai Health does not have an internal IRB. An external commercial IRB (Sterling IRB recommended) must be selected. See [IRB-SELECTION-GUIDE.md](../clinical/IRB-SELECTION-GUIDE.md) for details.
+
 | Goal | Metric | Timeline |
 |------|--------|----------|
-| **G1.1** Establish safety monitoring protocol | Protocol documented and IRB/ethics reviewed | Month 1-2 |
+| **G1.1** Establish safety monitoring protocol | Protocol documented and external IRB approved | Month 1-2 |
 | **G1.2** Recruit initial cohort | N = 20-30 patients with informed consent | Month 2-4 |
 | **G1.3** Baseline cognitive assessment | MoCA, MMSE, or validated cognitive battery | Month 2-4 |
 | **G1.4** Implement supplementation protocol | Lithium orotate dosing based on available evidence | Month 4+ |

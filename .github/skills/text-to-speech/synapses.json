@@ -1,6 +1,8 @@
 {
     "skill": "text-to-speech",
-    "version": "1.0.0",
+    "version": "1.1.0",
+    "promotionReady": true,
+    "promotionNotes": "Ready for Master Alex - universal utility, zero-cost Edge TTS, MCP pattern reusable",
     "connections": [
         {
             "target": "mcp-development",

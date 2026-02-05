@@ -1,14 +1,34 @@
 ---
-name: "Text-to-Speech Skill"
-description: "**Domain**: AI Accessibility & Communication"
+name: "text-to-speech"
+description: "Alex's voice synthesis capability for reading documents aloud"
 ---
 
 # Text-to-Speech Skill
 
-> **Domain**: AI Accessibility & Communication
-> **Inheritance**: inheritable
-> **Version**: 1.0.0
-> **Last Updated**: 2026-02-05
+> **Domain**: AI Accessibility & Communication  
+> **Inheritance**: inheritable (promote to Master Alex for all heirs)  
+> **Version**: 1.1.0  
+> **Last Updated**: 2026-02-05  
+> **Author**: Alex (Lithium project)
+
+---
+
+## For Master Alex (Promotion Notes)
+
+This skill gives Alex a voice. It uses Microsoft Edge TTS (free, no API key) via an MCP server to read any document aloud with natural-sounding neural voices. Developed during the Lithium research project to help Claudia rehearse stakeholder pitches.
+
+**Why promote to Master:**
+
+- Universal utility across all projects
+- Zero-cost implementation (uses free Edge TTS API)
+- MCP server pattern is reusable
+- Accessibility benefits for vision-impaired users
+
+**Dependencies:**
+
+- Python 3.8+ with `edge-tts` package
+- Node.js for MCP server
+- MCP server at `~/.alex/mcp-servers/tts-reader/`
 
 ---
 
@@ -74,71 +94,84 @@ Alex's default voice (GuyNeural) was chosen for:
 
 ## MCP Server Tools
 
-### 1. read_markdown
+The TTS MCP server (`mcp_tts-reader_*`) exposes four tools:
 
-Read a markdown file or text aloud.
+### 1. mcp_tts-reader_read_markdown
+
+Read a markdown file or text aloud. Strips markdown formatting for natural speech.
 
 ```json
 {
-  "name": "read_markdown",
-  "arguments": {
-    "file": "path/to/document.md",   // OR
-    "text": "Text to read aloud",     // Either file or text
-    "voice": "en-US-GuyNeural",       // Optional
-    "rate": "+0%",                    // Speed: -50% to +100%
-    "pitch": "+0Hz"                   // Pitch adjustment
-  }
+  "filePath": "path/to/document.md",  // Path to markdown file
+  "text": "Text to read aloud",        // OR provide text directly
+  "section": "## Overview"             // Optional: read specific section only
 }
 ```
 
+**Parameters** (all optional - provide either `filePath` or `text`):
+
+| Parameter | Type | Description |
+|-----------|------|-------------|
+| `filePath` | string | Path to the markdown file to read |
+| `text` | string | Text to read aloud (if not providing a file) |
+| `section` | string | Specific section heading to read (e.g., `## Overview`) |
+
 **Behavior**:
+
 - Strips markdown formatting for natural speech
 - Expands abbreviations (e.g., "README" → "read me")
 - Handles code blocks with verbal indicators
 - Supports section-by-section reading
 
-### 2. list_voices
+### 2. mcp_tts-reader_list_voices
 
-List available Alex voice presets and all Edge TTS voices.
+List available Alex voice presets and all Edge TTS voices. Takes no arguments.
+
+```json
+{}
+```
+
+Returns the list of available voices including Alex's presets (default, warm, british, friendly) and all Edge TTS neural voices.
+
+### 3. mcp_tts-reader_set_voice
+
+Configure Alex's voice settings.
 
 ```json
 {
-  "name": "list_voices",
-  "arguments": {
-    "locale": "en-US",    // Optional: filter by locale
-    "gender": "Male"      // Optional: Male, Female
-  }
+  "voice": "en-US-ChristopherNeural",  // Required: voice ID or preset
+  "rate": "+10%",                       // Optional: speed adjustment
+  "pitch": "+2Hz"                       // Optional: pitch adjustment
 }
 ```
 
-### 3. set_voice
+**Parameters**:
 
-Configure Alex's default voice settings.
+| Parameter | Type | Required | Description |
+|-----------|------|----------|-------------|
+| `voice` | string | Yes | Voice ID (e.g., `en-US-GuyNeural`) or preset name (`default`, `warm`, `british`, `friendly`) |
+| `rate` | string | No | Speech rate adjustment (e.g., `+10%`, `-20%`) |
+| `pitch` | string | No | Pitch adjustment (e.g., `+5Hz`, `-10Hz`) |
+
+### 4. mcp_tts-reader_save_audio
+
+Generate and save speech to an MP3 file.
 
 ```json
 {
-  "name": "set_voice",
-  "arguments": {
-    "voice": "en-US-ChristopherNeural",
-    "rate": "+10%",
-    "pitch": "+2Hz"
-  }
+  "filePath": "document.md",           // Path to markdown file
+  "text": "Or provide text directly",  // Alternative to filePath
+  "outputPath": "output.mp3"           // Required: where to save MP3
 }
 ```
 
-### 4. save_audio
+**Parameters**:
 
-Generate an MP3 file from text or markdown.
-
-```json
-{
-  "name": "save_audio",
-  "arguments": {
-    "file": "document.md",
-    "output": "document.mp3",
-    "voice": "en-US-GuyNeural"
-  }
-}
+| Parameter | Type | Required | Description |
+|-----------|------|----------|-------------|
+| `outputPath` | string | Yes | Where to save the MP3 file |
+| `filePath` | string | No | Path to the markdown file to convert |
+| `text` | string | No | Text to convert to speech |
 ```
 
 ---
@@ -153,7 +186,7 @@ Generate an MP3 file from text or markdown.
 | `**bold**` | "bold" (emphasis via prosody) |
 | `*italic*` | "italic" |
 | `` `code` `` | "code" |
-| `[link](url)` | "link" |
+| `[link]\(url\)` | "link" |
 | `- item` | "Item." |
 | `> quote` | "Quote: ..." |
 | `---` | (long pause) |
