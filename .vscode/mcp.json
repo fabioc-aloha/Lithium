@@ -1,0 +1,11 @@
+{
+    "servers": {
+        "tts-reader": {
+            "command": "node",
+            "args": [
+                "C:/Users/fabioc/.alex/mcp-servers/tts-reader/index.js"
+            ],
+            "env": {}
+        }
+    }
+}
