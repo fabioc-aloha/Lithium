@@ -2,10 +2,20 @@
 
 ![Lithium & Alzheimer's Disease Prevention Research](assets/banner.svg)
 
-**Project**: Systematic Evidence Review and Meta-Analysis Framework
-**Principal Investigators**: Correa/Cohen/Deeble Family Research Team
-**Date**: February 5, 2026
-**Version**: 1.0
+| | |
+| --- | --- |
+| **Project** | Systematic Evidence Review and Meta-Analysis Framework |
+| **Version** | 1.0 |
+| **Date** | February 5, 2026 |
+
+## Principal Investigators
+
+| Name | Title |
+| --- | --- |
+| Claudia Correa | Counselor |
+| Fabio Correa | Researcher |
+| Robert Sibble | Researcher |
+| Phillip Cohen | Dr. |
 
 ---
 
