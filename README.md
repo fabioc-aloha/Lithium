@@ -39,7 +39,7 @@ Evaluate the scientific evidence for lithium supplementation as a preventive int
 
 | Phase | Setting | N | Objective |
 | --- | --- | --- | --- |
-| Phase 1 | Wife's psychology practice | 20-30 | Feasibility pilot |
+| Phase 1 | Claudia Correa's counseling practice | 20-30 | Feasibility pilot |
 | Phase 2 | Multi-practitioner network | ≥100 | Effect size estimation |
 | Phase 3 | Formal research collaboration | ≥300 | Statistical validation |
 
@@ -151,7 +151,7 @@ Evaluate the scientific evidence for lithium supplementation as a preventive int
 | --- | --- | --- |
 | **Preparation** | Now - Q2 2026 | Monitor LATTICE results, Yankner trial registration |
 | **Protocol Development** | Q3 2026 | Design observational cohort, IRB consultation |
-| **Phase 1 Pilot** | 2027 | N=20-30 in psychology practice, feasibility assessment |
+| **Phase 1 Pilot** | 2027 | N=20-30 in counseling practice, feasibility assessment |
 | **Phase 2 Expansion** | 2028 | Multi-practitioner, effect size calculation |
 | **Phase 3 Validation** | 2029+ | Formal RCT collaboration if Phase 2 positive |
 
