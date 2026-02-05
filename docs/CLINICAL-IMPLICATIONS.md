@@ -17,6 +17,31 @@ This document provides clinical guidance for healthcare providers and individual
 
 ---
 
+## Clinical Experience from PI Team
+
+### Dr. Phillip Cohen's Observations (Spring 2023)
+
+Dr. Cohen initiated lithium therapy for a family member (Susan) in spring 2023 after consultation with her psychiatrist:
+
+| Factor | Detail |
+| ------ | ------ |
+| **Diagnosis** | Mixed-type dementia (Alzheimer's + vascular) |
+| **Outcome** | No observable benefit |
+| **Key Learning** | Mixed dementia may not respond to lithium |
+
+**Clinical Insight**: "The data from Scandinavia about lithium and dementia has been known for years but not acknowledged or adopted. Very low doses with the orotate preparation can still be effective. One needs normal kidney and thyroid function to take lithium." — Dr. Phil Cohen
+
+### Implications for Trial Design
+
+Based on Dr. Cohen's experience:
+
+1. **Exclude mixed dementia**: Pure Alzheimer's pathology may be required for response
+2. **Screen for vascular component**: MRI or clinical assessment for vascular burden
+3. **Document dementia subtype**: Essential for subgroup analysis
+4. **Consider earlier intervention**: Prevention rather than treatment of established dementia
+
+---
+
 ## Lithium Formulations
 
 ### Lithium Carbonate (Li₂CO₃)

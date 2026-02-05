@@ -169,6 +169,28 @@ def hello():
 
 Becomes: "Python code block. Definition hello. Print hello. End code block."
 
+### Symbol-to-Speech Transformations
+
+Symbols are converted to natural speech equivalents:
+
+| Symbol | Spoken As | Example |
+|--------|-----------|--------|
+| `~` | "approximately" or "about" | ~2 min → "about 2 minutes" |
+| `&` | "and" | A & B → "A and B" |
+| `@` | "at" | user@email → "user at email" |
+| `%` | "percent" | 50% → "50 percent" |
+| `+` | "plus" | +10% → "plus 10 percent" |
+| `→` | "leads to" or "becomes" | A → B → "A becomes B" |
+| `—` | (pause) | word—word → "word (pause) word" |
+| `#` | (context-dependent) | #1 → "number 1"; ## → (heading marker) |
+| `<` / `>` | "less than" / "greater than" | x > 5 → "x greater than 5" |
+| `≥` / `≤` | "greater than or equal" / "less than or equal" | |
+| `µ` | "micro" | µg → "microgram" |
+| `°` | "degrees" | 37°C → "37 degrees celsius" |
+| `±` | "plus or minus" | ±5% → "plus or minus 5 percent" |
+
+**Design Principle**: Would a human reading this aloud say the symbol name, or translate it to meaning? Almost always the latter.
+
 ---
 
 ## Installation

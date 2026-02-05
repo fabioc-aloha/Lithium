@@ -274,9 +274,43 @@ This meta-analysis provides **important contradicting evidence** that should be 
 | Front Pharmacol 2024 (Shen) | ✅ | Comprehensive review, 264 refs |
 | J Clin Psychopharmacol 2024 (Huang) | ✅ | **Contradicting** meta-analysis |
 | LATTICE Study 2025 | ✅ | Ongoing RCT, results pending |
-| Harvard Gazette article | ❌ | URL returned 404 - **replaced by PubMed sources** |
-| Psychology Today article | ❌ | URL returned 404 - **replaced by PubMed sources** |
-| Medscape article | ❌ | Paywall - **replaced by PubMed sources** |
+| **Eric Topol (Ground Truths)** | ✅ | Expert synthesis, August 2025 |
+| Harvard Gazette article | ❌ | URL returned 404, replaced by PubMed sources |
+| Psychology Today article | ❌ | URL returned 404, replaced by PubMed sources |
+| Medscape article | ❌ | Paywall, replaced by PubMed sources |
+
+---
+
+## Expert Commentary
+
+### Eric Topol, MD: Ground Truths (August 2025)
+
+**Title**: Lithium and Its Potential Protection from Alzheimer's Disease
+**Source**: Ground Truths Substack
+**Date**: August 9, 2025
+**Shared by**: Dr. Phillip Cohen (PI team)
+
+#### Topol Summary
+
+Dr. Topol, a leading physician-scientist, provides comprehensive synthesis of the Nature 2025 findings:
+
+1. **Lithium orotate >> carbonate**: "Finding a lithium salt that was much less likely to form ions and get sequestered by amyloid-β turned out to be lithium orotate, markedly better than lithium carbonate."
+
+2. **Very low doses effective**: "The point that very low doses of lithium would be expected to achieve salutary effects in humans is especially noteworthy."
+
+3. **NIH funding at risk**: Notes the study "would not have been possible without the support by multiple NIH grants now being subject to profound cuts."
+
+4. **Clinical trial planned**: "We hope to initiate such a randomized trial in the near future that would help illuminate whether low dose lithium orotate has efficacy in people."
+
+5. **Do not self-treat**: "Should people start taking lithium orotate? The answer is no... we need a clinical trial to prove that the new study translates to a clinical benefit."
+
+#### Three Lines of Evidence (Topol's Framework)
+
+| Evidence Type | Key Finding |
+| --- | --- |
+| **Randomized Trials** | 4 small RCTs, direction toward benefit, one significant (Nunes 2013) |
+| **Bipolar Disease** | Denmark: 30% on lithium had significant dementia protection |
+| **Drinking Water** | Higher lithium exposure associated with lower dementia incidence |
 
 ---
 

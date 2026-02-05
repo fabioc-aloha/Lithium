@@ -76,6 +76,31 @@ February 5, 2026
 
 ---
 
+## Clinical Trial Exclusion Considerations
+
+Based on PI team clinical experience (Dr. Cohen, February 2026):
+
+### Proposed Exclusions for Future Trials
+
+| Exclusion | Rationale | Source |
+| --- | --- | --- |
+| **Mixed-type dementia** (Alzheimer's + vascular) | No observable benefit in clinical experience | Dr. Cohen observation (Susan, 2023) |
+| **Established dementia** | Better suited for prevention than treatment | Forlenza 2019 enrolled MCI, not dementia |
+| **eGFR < 45** | Nephrotoxicity risk | Standard lithium contraindication |
+| **Active thyroid disease** | Lithium affects thyroid function | Standard lithium contraindication |
+| **Concurrent ARB use** (e.g., Losartan) | 20-30% increase in lithium levels | Drug interaction; Original email concern |
+| **Concurrent ACE inhibitor use** | Increased lithium levels | Drug interaction |
+| **Concurrent thiazide diuretic use** | Reduced lithium clearance | Drug interaction |
+| **Concurrent NSAID use** | Reduced lithium excretion | Drug interaction |
+
+### Rationale for Mixed Dementia Exclusion
+
+Dr. Cohen's clinical experience: \"I started Susan on this in spring of 2023 after consultation with her psychiatrist. I don't think it helped at all because she has mixed type dementia, Alzheimer's and vascular.\"
+
+**Interpretation**: The lithium-amyloid mechanism (Nature 2025) is specific to Alzheimer's pathology. Vascular dementia involves different pathophysiology (small vessel disease, microinfarcts) that lithium would not be expected to address.
+
+---
+
 ## Sources Evaluated
 
 ### Primary Research
