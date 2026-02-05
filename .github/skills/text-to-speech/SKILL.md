@@ -282,6 +282,23 @@ python -m edge_tts --list-voices
 
 ---
 
+## Examples
+
+Audio files demonstrating TTS skill in action (Lithium project, February 2026):
+
+| File | Description | Duration |
+|------|-------------|----------|
+| [lithium-combined-pitch.mp3](examples/lithium-combined-pitch.mp3) | Claudia's combined pitch to Phil & Robert with research citations | ~2 min |
+| [claudia-pitch.mp3](examples/claudia-pitch.mp3) | Claudia's individual pitch to Phil | ~1.5 min |
+
+**Generation Command Used:**
+```powershell
+python -m edge_tts --voice en-US-GuyNeural --file pitch.txt --write-media output.mp3
+Start-Process output.mp3
+```
+
+---
+
 ## Technical Notes
 
 ### Windows Audio Playback
@@ -313,6 +330,8 @@ Audio files are generated in temp directory and cleaned up after playback:
 - **accessibility**: Primary use case enabler
 - **markdown-mermaid**: Source content processing
 - **academic-research**: Document reading for research projects
+- **gamma-presentations**: Audio playback of pitch content for rehearsal and delivery
+- **project-management**: Stakeholder pitch presentations generated as audio files
 
 ---
 
