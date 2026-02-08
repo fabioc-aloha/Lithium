@@ -2,7 +2,7 @@
 
 > How skills evolve from heir projects to Master Alex
 
-**Synapse**: [bootstrap-learning.instructions.md] (0.8, procedural, bidirectional) - "heir develops expertise"
+**Synapse**: [.github/instructions/bootstrap-learning.instructions.md] (0.8, procedural, bidirectional) - "heir develops expertise"
 
 ---
 
@@ -37,11 +37,6 @@ Create a similar skill for [domain] in `.github/skills/[skill-name]/`.
 Include the gotchas you discovered.
 ```
 
-**Promotion-Ready Markers** (add to skill when ready):
-- In `SKILL.md` frontmatter: Add "For Master Alex" section explaining *why* to promote
-- In `synapses.json`: Add `"promotionReady": true` and `"promotionNotes": "..."` 
-- Create `README.md`: Quick-start guide for sharing (dependencies, installation, usage)
-
 ### 4. Master Reviews
 - Is it generalizable beyond this project?
 - Are the patterns reusable?
@@ -75,6 +70,40 @@ Include the gotchas you discovered.
 2. ⏳ Heir finalizing scripts for Amazon KDP publication
 3. 🔜 After ship: heir creates `.github/skills/rich-document-pdf/SKILL.md`
 4. 🔜 Master reviews and promotes
+
+---
+
+## Upgrade Preservation (Automatic)
+
+When heirs upgrade to a new Alex version, their skills are **automatically preserved**:
+
+### What Happens During Upgrade
+1. **Backup**: All existing `.github/` content backed up with timestamp
+2. **Fresh Install**: New Alex architecture deployed
+3. **Auto-Restore**: Profile, episodic memories, AND user-created skills restored
+4. **Synapse Normalization**: Legacy synapse formats upgraded to current schema
+
+### Synapse Schema Migrations (Automatic)
+| Legacy Format | Current Format |
+|---------------|----------------|
+| `strength: "strong"` | `strength: 0.9` |
+| `synapses: [...]` | `connections: [...]` |
+| `context: "..."` | `when: "..." + yields: "..."` |
+| `activationKeywords` | `activationContexts` |
+
+### Strength Mapping
+```
+critical → 1.0
+strong/high → 0.9
+moderate/medium → 0.7
+low → 0.5
+weak/minimal → 0.3
+```
+
+### Philosophy
+> **Never lose heir-created work.** Skills represent hard-won expertise from real projects. The upgrade process auto-restores everything recommended; only stale items (>90 days) require manual review.
+
+**Synapse**: [upgrade.ts] (0.9, implements, forward) - "normalizeAllSynapses() executes this"
 
 ---
 

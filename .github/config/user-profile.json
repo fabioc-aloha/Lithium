@@ -1,6 +1,6 @@
 {
   "name": "Fabio Correa",
-  "lastUpdated": "2026-02-05T23:30:00.000Z",
+  "lastUpdated": "2026-02-08T20:10:32.463Z",
   "location": "Charlotte, NC",
   "role": "Director of Business Analytics at Microsoft",
   "credentials": [
@@ -14,7 +14,10 @@
     "TypeScript",
     "VS Code Extensions",
     "Microsoft 365 Copilot",
-    "AI/ML"
+    "AI/ML",
+    "markdown",
+    "documentation",
+    "research"
   ],
   "expertiseAreas": [
     "Responsible AI",
@@ -67,5 +70,15 @@
     "incidentType": "billing issue resolved",
     "builtBy": "Alex Cognitive Architecture"
   },
-  "explanationStyle": "visual-first"
+  "explanationStyle": "visual-first",
+  "projectPersona": {
+    "id": "researcher",
+    "confidence": 0.95,
+    "detectedAt": "2026-02-08T20:10:32.463Z",
+    "reasons": [
+      "The project focuses on systematic evidence review and meta-analysis, which are core research activities.",
+      "The directory structure includes clinical protocols, literature synthesis, and hypothesis evaluation, indicating a research-oriented workflow.",
+      "The README emphasizes AI-augmented research and collaboration, aligning with academic research practices."
+    ]
+  }
 }
