@@ -299,4 +299,36 @@ This research method leverages:
 
 ---
 
-*This skill was earned through writing AI-ASSISTED-DEVELOPMENT-METHODOLOGY.md — 1500+ lines, 22+ references, 17+ diagrams, fact-checked and publication-ready.*
+## Research Project Audit Protocol
+
+Systematic audit pattern for clinical/academic research projects, validated through the Lithium/AD project (Feb 2026, 23 files, ~7,930 lines).
+
+### Audit Phases
+
+| Phase | Focus | Checking For |
+|-------|-------|-------------|
+| 1. Structure | File inventory + line counts | Missing files, orphans, misplaced content |
+| 2. Cross-references | Internal links between docs | Broken links, missing from navigation |
+| 3. Content quality | Placeholder text, TODOs | Unfilled fields, incomplete sections |
+| 4. Consistency | Same facts across files | Credential conflicts, criteria drift, timeline mismatches |
+| 5. Currency | Dates, versions, external refs | Expired FOAs, stale URLs, outdated timelines |
+| 6. Redundancy | Overlapping content | Merge candidates, canonical source ambiguity |
+| 7. Gaps | Against master checklist | Missing deliverables, unreferenced appendices |
+| 8. Privacy | PII exposure | Emails, phone numbers, patient data in tracked files |
+
+### Priority Classification
+
+| Priority | Meaning | Example |
+|----------|---------|---------|
+| P0 | Blocks next milestone | Credential conflicts blocking IRB submission |
+| P1 | Inconsistency risk | Inclusion criteria varying across documents |
+| P2 | Quality improvement | Missing navigation links, formatting issues |
+| P3 | Nice-to-have | Optional appendices, future enhancements |
+
+### Key Lesson
+
+Content quality and scientific rigor can be excellent while **administrative consistency** (credentials, contact info, site naming) creates hidden blockers. The audit pattern catches these before they surface during external review.
+
+---
+
+*This skill was earned through writing AI-ASSISTED-DEVELOPMENT-METHODOLOGY.md — 1500+ lines, 22+ references, 17+ diagrams, fact-checked and publication-ready. Research audit protocol added Feb 2026 from Lithium project audit.*
