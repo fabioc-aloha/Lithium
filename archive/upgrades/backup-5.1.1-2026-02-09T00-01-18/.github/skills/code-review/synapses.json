@@ -1,0 +1,35 @@
+{
+  "$schema": "../SYNAPSE-SCHEMA.json",
+  "skillId": "code-review",
+  "lastUpdated": "2026-02-08",
+  "inheritance": "inheritable",
+  "connections": [
+    {
+      "target": ".github/skills/testing-strategies/SKILL.md",
+      "type": "validates",
+      "strength": 0.75,
+      "reason": "Review checks test coverage"
+    },
+    {
+      "target": ".github/skills/refactoring-patterns/SKILL.md",
+      "type": "suggests",
+      "strength": 0.6,
+      "reason": "Reviews often suggest refactoring"
+    },
+    {
+      "target": ".github/skills/git-workflow/SKILL.md",
+      "type": "integrates",
+      "strength": 0.75,
+      "reason": "Review is part of PR workflow"
+    }
+  ],
+  "triggers": [
+    "review",
+    "PR",
+    "pull request",
+    "feedback",
+    "approve",
+    "merge"
+  ],
+  "schemaVersion": "2.0.0"
+}

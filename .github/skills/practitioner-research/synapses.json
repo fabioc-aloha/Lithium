@@ -1,7 +1,7 @@
 {
   "$schema": "../SYNAPSE-SCHEMA.json",
   "skillId": "practitioner-research",
-  "lastUpdated": "2026-02-08",
+  "lastUpdated": "2026-02-09",
   "inheritance": "inheritable",
   "connections": [
     {
@@ -52,13 +52,6 @@
       "type": "uses",
       "strength": 0.8,
       "reason": "Global insights become research evidence"
-    },
-    {
-      "target": ".github/skills/architecture-audit/SKILL.md",
-      "type": "extends",
-      "strength": 0.75,
-      "reason": "Research audit protocol extends architecture audit for clinical/academic projects",
-      "bidirectional": true
     }
   ],
   "triggers": [

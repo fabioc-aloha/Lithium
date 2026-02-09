@@ -2,7 +2,7 @@
   "$schema": "../SYNAPSE-SCHEMA.json",
   "skillId": "architecture-audit",
   "version": "1.1.0",
-  "lastUpdated": "2026-02-08",
+  "lastUpdated": "2026-02-09",
   "inheritance": "inheritable",
   "connections": [
     {
@@ -48,13 +48,6 @@
       "strength": 0.5,
       "type": "complements",
       "description": "Verification mindset",
-      "bidirectional": true
-    },
-    {
-      "target": ".github/skills/practitioner-research/SKILL.md",
-      "strength": 0.75,
-      "type": "extends",
-      "description": "Research audit protocol adapts audit patterns for clinical/academic projects",
       "bidirectional": true
     }
   ],

@@ -1,7 +1,7 @@
 {
   "$schema": "../SYNAPSE-SCHEMA.json",
   "skillId": "vscode-extension-patterns",
-  "lastUpdated": "2026-02-08",
+  "lastUpdated": "2026-02-09",
   "inheritance": "heir:vscode",
   "connections": [
     {
@@ -17,6 +17,13 @@
       "strength": 0.85,
       "when": "VS Code heir patterns",
       "yields": "See target skill"
+    },
+    {
+      "target": ".github/skills/security-review/SKILL.md",
+      "type": "implements",
+      "strength": 0.8,
+      "when": "CSP, SecretStorage, telemetry compliance",
+      "yields": "See target skill"
     }
   ],
   "activationContexts": [
@@ -24,7 +31,11 @@
     "webview implementation",
     "publishing extension",
     "settings configuration",
-    "auto-detection features"
+    "auto-detection features",
+    "SecretStorage token migration",
+    "CSP Content-Security-Policy",
+    "telemetry opt-out compliance",
+    "onDidChangeConfiguration listener"
   ],
   "triggers": [
     "extension",
@@ -33,7 +44,10 @@
     "webview",
     "tree view",
     "activation",
-    "contribution point"
+    "contribution point",
+    "SecretStorage",
+    "CSP",
+    "telemetry"
   ],
   "schemaVersion": "2.0.0"
 }

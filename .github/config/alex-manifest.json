@@ -1,6 +1,6 @@
 {
-  "version": "5.1.2",
-  "installedAt": "2026-02-08T20:09:55.961Z",
+  "version": "5.3.1",
+  "installedAt": "2026-02-09T00:01:31.245Z",
   "files": {
     ".github/agents/alex-azure.agent.md": {
       "type": "system",
@@ -24,7 +24,7 @@
     },
     ".github/config/user-profile.json": {
       "type": "system",
-      "checksum": "907a408a2a915a9689bd5cc3683f8dcf"
+      "checksum": "adc262231ada0a17a71dd7da56fb4480"
     },
     ".github/config/USER-PROFILE.md": {
       "type": "system",
@@ -32,7 +32,7 @@
     },
     ".github/copilot-instructions.md": {
       "type": "system",
-      "checksum": "c7ae86606114c5adff5a23e646481d3f"
+      "checksum": "67e3716bafe54084c90d14798753b154"
     },
     ".github/episodic/.markdownlint.json": {
       "type": "system",
@@ -672,7 +672,7 @@
     },
     ".github/skills/security-review/synapses.json": {
       "type": "system",
-      "checksum": "a40c8892fb07ef6a663f85eb311cbbce"
+      "checksum": "ec3f154bd49e39d9b66951eea567d645"
     },
     ".github/skills/skill-activation/SKILL.md": {
       "type": "system",
@@ -748,11 +748,11 @@
     },
     ".github/skills/vscode-extension-patterns/SKILL.md": {
       "type": "system",
-      "checksum": "c7e8c4f42ee25a0de84b63d6e4b36014"
+      "checksum": "c330be239722aaab4de4aef4cf8140bf"
     },
     ".github/skills/vscode-extension-patterns/synapses.json": {
       "type": "system",
-      "checksum": "8e5a62e3becb65aeffbf8f01912dc501"
+      "checksum": "5926cc587d454e34ca04ed3186408b3d"
     },
     ".github/skills/work-life-balance/SKILL.md": {
       "type": "system",
@@ -769,6 +769,78 @@
     ".github/skills/writing-publication/synapses.json": {
       "type": "system",
       "checksum": "7a17199858040d300bfe65a4fd9d2541"
+    },
+    ".github/skills/architecture-refinement/SKILL.md": {
+      "type": "user",
+      "checksum": "05d1075738670dd61e8cf68816469866"
+    },
+    ".github/skills/architecture-refinement/synapses.json": {
+      "type": "user",
+      "checksum": "c03d19fb8d6b8d8d7846ae7736219a78"
+    },
+    ".github/skills/global-knowledge/SKILL.md": {
+      "type": "user",
+      "checksum": "a689b4929ca09ad59cd43bdb7f9b30f0"
+    },
+    ".github/skills/global-knowledge/synapses.json": {
+      "type": "user",
+      "checksum": "aee329bd2123da194d0ff55ba79d7605"
+    },
+    ".github/skills/heir-curation/SKILL.md": {
+      "type": "user",
+      "checksum": "3c24c35baa16b1ccd546cd986cda9414"
+    },
+    ".github/skills/heir-curation/synapses.json": {
+      "type": "user",
+      "checksum": "a410d16fb21291a363dc1baa8b37bd75"
+    },
+    ".github/skills/knowledge-synthesis/SKILL.md": {
+      "type": "user",
+      "checksum": "4725dfe2e1cfab74f9f45b2472566028"
+    },
+    ".github/skills/knowledge-synthesis/synapses.json": {
+      "type": "user",
+      "checksum": "d8395354fa35ccf128d47599e7f24f7f"
+    },
+    ".github/skills/llm-model-selection/SKILL.md": {
+      "type": "user",
+      "checksum": "e6511d85c1832e6532cd78aa9b529259"
+    },
+    ".github/skills/llm-model-selection/synapses.json": {
+      "type": "user",
+      "checksum": "39ef26813880b3528e3979024cbf6fdf"
+    },
+    ".github/skills/master-alex-audit/SKILL.md": {
+      "type": "user",
+      "checksum": "d3c466cb698b97dc5e7c4355781fbf01"
+    },
+    ".github/skills/master-alex-audit/synapses.json": {
+      "type": "user",
+      "checksum": "f0ce3e9645758eb6a77f9e97e487153d"
+    },
+    ".github/skills/meditation/SKILL.md": {
+      "type": "user",
+      "checksum": "1869ddf16951f2db676f69c15847311d"
+    },
+    ".github/skills/meditation/synapses.json": {
+      "type": "user",
+      "checksum": "74d59b8ff9f76c7a1eda1d3c03c787e6"
+    },
+    ".github/skills/meditation-facilitation/SKILL.md": {
+      "type": "user",
+      "checksum": "d0d0ad2778658fa3456f8cdfe4f7d3a2"
+    },
+    ".github/skills/meditation-facilitation/synapses.json": {
+      "type": "user",
+      "checksum": "8521e7186b78aaf9542ea1140c0604e8"
+    },
+    ".github/skills/self-actualization/SKILL.md": {
+      "type": "user",
+      "checksum": "c2bfe484ce882fcff91ccfcf8ac8919d"
+    },
+    ".github/skills/self-actualization/synapses.json": {
+      "type": "user",
+      "checksum": "c62c2eac29c8f4348c8a13d9e07ddf55"
     }
   }
 }

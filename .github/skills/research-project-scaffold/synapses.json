@@ -2,7 +2,7 @@
   "$schema": "../SYNAPSE-SCHEMA.json",
   "skillId": "research-project-scaffold",
   "version": "1.1.0",
-  "lastUpdated": "2026-02-08",
+  "lastUpdated": "2026-02-09",
   "inheritance": "inheritable",
   "connections": [
     {

@@ -1,7 +1,7 @@
 {
   "$schema": "../SYNAPSE-SCHEMA.json",
   "skillId": "academic-research",
-  "lastUpdated": "2026-02-08",
+  "lastUpdated": "2026-02-09",
   "inheritance": "inheritable",
   "connections": [
     {
@@ -28,12 +28,6 @@
       "type": "considers",
       "strength": 0.4,
       "target": ".github/skills/cognitive-load/SKILL.md"
-    },
-    {
-      "reason": "Evidence synthesis requires cross-domain pattern recognition (validated via Lithium project)",
-      "type": "uses",
-      "strength": 0.7,
-      "target": ".github/skills/knowledge-synthesis/SKILL.md"
     }
   ],
   "triggers": [
