@@ -1,7 +1,5 @@
 {
-  "$schema": "../SYNAPSE-SCHEMA.json",
-  "skillId": "image-handling",
-  "lastUpdated": "2026-02-09",
+  "skill": "image-handling",
   "inheritance": "inheritable",
   "connections": [
     {
@@ -38,5 +36,6 @@
     "icon sizes",
     "sharp-cli"
   ],
+  "$schema": "../SYNAPSE-SCHEMA.json",
   "schemaVersion": "2.0.0"
 }

@@ -1,47 +1,40 @@
 {
-  "$schema": "../SYNAPSE-SCHEMA.json",
-  "skillId": "infrastructure-as-code",
-  "version": "1.2.0",
-  "lastUpdated": "2026-02-09",
+  "skill": "infrastructure-as-code",
+  "version": "1.1.0",
   "inheritance": "inheritable",
   "connections": [
     {
       "target": ".github/skills/security-review/SKILL.md",
+      "relationship": "requires",
       "strength": 0.9,
-      "type": "REQUIRES",
-      "when": "IaC needs security scanning (tfsec, checkov)",
-      "yields": "See target skill"
+      "context": "IaC needs security scanning (tfsec, checkov)"
     },
     {
       "target": ".github/skills/git-workflow/SKILL.md",
+      "relationship": "requires",
       "strength": 0.9,
-      "type": "REQUIRES",
-      "when": "IaC follows GitOps patterns with PRs and reviews",
-      "yields": "See target skill"
+      "context": "IaC follows GitOps patterns with PRs and reviews"
     },
     {
       "target": ".github/skills/testing-strategies/SKILL.md",
+      "relationship": "complements",
       "strength": 0.7,
-      "type": "COMPLEMENTS",
-      "when": "IaC needs unit and integration testing",
-      "yields": "See target skill"
+      "context": "IaC needs unit and integration testing"
     },
     {
       "target": ".github/skills/api-design/SKILL.md",
+      "relationship": "complements",
       "strength": 0.3,
-      "type": "COMPLEMENTS",
-      "when": "IaC provisions infrastructure for APIs",
-      "yields": "See target skill"
+      "context": "IaC provisions infrastructure for APIs"
     },
     {
       "target": ".github/skills/mcp-development/SKILL.md",
+      "relationship": "complements",
       "strength": 0.3,
-      "type": "COMPLEMENTS",
-      "when": "MCP servers may need cloud infrastructure",
-      "yields": "See target skill"
+      "context": "MCP servers may need cloud infrastructure"
     }
   ],
-  "activationContexts": [
+  "activationTriggers": [
     "infrastructure as code",
     "IaC",
     "Terraform",
@@ -62,5 +55,6 @@
       "git-workflow"
     ]
   },
+  "$schema": "../SYNAPSE-SCHEMA.json",
   "schemaVersion": "2.0.0"
 }

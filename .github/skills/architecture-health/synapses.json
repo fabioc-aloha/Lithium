@@ -1,7 +1,5 @@
 {
-  "$schema": "../SYNAPSE-SCHEMA.json",
-  "skillId": "architecture-health",
-  "lastUpdated": "2026-02-09",
+  "skill": "architecture-health",
   "inheritance": "inheritable",
   "connections": [
     {
@@ -24,5 +22,6 @@
     "broken connections",
     "dream"
   ],
+  "$schema": "../SYNAPSE-SCHEMA.json",
   "schemaVersion": "2.0.0"
 }

@@ -1,7 +1,5 @@
 {
-  "$schema": "../SYNAPSE-SCHEMA.json",
-  "skillId": "svg-graphics",
-  "lastUpdated": "2026-02-09",
+  "skill": "svg-graphics",
   "inheritance": "inheritable",
   "connections": [
     {
@@ -45,5 +43,6 @@
     "viewBox",
     "dark mode CSS"
   ],
+  "$schema": "../SYNAPSE-SCHEMA.json",
   "schemaVersion": "2.0.0"
 }

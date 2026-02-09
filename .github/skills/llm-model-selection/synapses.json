@@ -1,28 +1,26 @@
 {
-  "$schema": "../SYNAPSE-SCHEMA.json",
-  "skillId": "llm-model-selection",
-  "lastUpdated": "2026-02-08",
-  "inheritance": "master-only",
+  "skill": "llm-model-selection",
+  "inheritance": "inheritable",
   "connections": [
     {
-      "target": "appropriate-reliance",
+      "target": ".github/skills/appropriate-reliance/SKILL.md",
       "type": "informs",
       "strength": 0.9,
       "note": "Model awareness enables appropriate reliance through task-model matching"
     },
     {
-      "target": "architecture-refinement",
+      "target": ".github/skills/architecture-refinement/SKILL.md",
       "type": "supports",
       "strength": 0.8
     },
     {
-      "target": "self-actualization",
+      "target": ".github/skills/self-actualization/SKILL.md",
       "type": "supports",
       "strength": 0.85,
       "note": "Model awareness required for accurate self-assessment"
     },
     {
-      "target": "meditation",
+      "target": ".github/skills/meditation/SKILL.md",
       "type": "supports",
       "strength": 0.85,
       "note": "Deep meditation requires frontier model cognition"
@@ -52,5 +50,7 @@
     "prompt engineering",
     "wrong model",
     "model warning"
-  ]
+  ],
+  "$schema": "../SYNAPSE-SCHEMA.json",
+  "schemaVersion": "2.0.0"
 }

@@ -31,8 +31,8 @@
 | ☐ Confirm Claudia Correa commitment (Clinical Lead) | Claudia | Feb 2026 | ⏳ |
 | ☐ Confirm Dr. Cohen commitment (Medical Director) | Phil | Feb 2026 | ⏳ |
 | ☐ Confirm Robert Deeble commitment (Research Oversight) | Robert | Feb 2026 | ⏳ |
-| ☐ Define roles and responsibilities in writing | Fabio | Feb 2026 | ⏳ |
-| ☐ Execute team commitment letters | All PIs | Mar 2026 | ⏳ |
+| ☑️ Define roles and responsibilities in writing | Fabio | Feb 2026 | ✅ Done |
+| ☐ Execute team commitment letters | All PIs | Mar 2026 | ⏳ Drafts Ready |
 
 ### 1.2 Organizational Infrastructure
 
@@ -61,6 +61,7 @@
 | ☑️ Informed Consent (Portuguese) | [clinical/INFORMED-CONSENT-PT.md](clinical/INFORMED-CONSENT-PT.md) | ✅ Draft Complete |
 | ☑️ Case Report Forms | [clinical/CASE-REPORT-FORMS.md](clinical/CASE-REPORT-FORMS.md) | ✅ Draft Complete |
 | ☑️ Screening Checklist | [clinical/SCREENING-CHECKLIST.md](clinical/SCREENING-CHECKLIST.md) | ✅ Draft Complete |
+| ☑️ PI Commitment Letters | [clinical/PI-COMMITMENT-LETTERS.md](clinical/PI-COMMITMENT-LETTERS.md) | ✅ Drafts Ready |
 
 ### 2.2 Literature & Evidence
 

@@ -1,7 +1,5 @@
 {
-  "$schema": "../SYNAPSE-SCHEMA.json",
-  "skillId": "vscode-environment",
-  "lastUpdated": "2026-02-09",
+  "skill": "vscode-environment",
   "inheritance": "inheritable",
   "connections": [
     {
@@ -37,5 +35,6 @@
     "tasks.json",
     "dev environment"
   ],
+  "$schema": "../SYNAPSE-SCHEMA.json",
   "schemaVersion": "2.0.0"
 }

@@ -1,29 +1,27 @@
 {
-  "$schema": "../SYNAPSE-SCHEMA.json",
-  "skillId": "self-actualization",
-  "lastUpdated": "2026-02-08",
-  "inheritance": "master-only",
+  "skill": "self-actualization",
+  "inheritance": "inheritable",
   "connections": [
     {
-      "target": "architecture-health",
+      "target": ".github/skills/architecture-health/SKILL.md",
       "type": "requires",
       "strength": 0.9,
       "reason": "Health check first"
     },
     {
-      "target": "meditation-facilitation",
+      "target": ".github/skills/meditation-facilitation/SKILL.md",
       "type": "extends",
       "strength": 0.8,
       "reason": "Deeper than meditation"
     },
     {
-      "target": "architecture-refinement",
+      "target": ".github/skills/architecture-refinement/SKILL.md",
       "type": "triggers",
       "strength": 0.65,
       "reason": "Actualization leads to refinement"
     },
     {
-      "target": "knowledge-synthesis",
+      "target": ".github/skills/knowledge-synthesis/SKILL.md",
       "type": "produces",
       "strength": 0.75,
       "reason": "Deep insights synthesized"
@@ -34,5 +32,7 @@
     "deep meditation",
     "comprehensive assessment",
     "architecture review"
-  ]
+  ],
+  "$schema": "../SYNAPSE-SCHEMA.json",
+  "schemaVersion": "2.0.0"
 }

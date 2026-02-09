@@ -1,32 +1,27 @@
 {
-  "$schema": "../SYNAPSE-SCHEMA.json",
-  "skillId": "writing-publication",
-  "lastUpdated": "2026-02-09",
+  "skill": "writing-publication",
   "inheritance": "inheritable",
   "connections": [
     {
       "target": ".github/skills/markdown-mermaid/SKILL.md",
       "type": "enables",
       "strength": 0.85,
-      "when": "Diagrams for papers and articles",
-      "yields": "See target skill"
+      "context": "Diagrams for papers and articles"
     },
     {
       "target": ".github/skills/lint-clean-markdown/SKILL.md",
       "type": "enables",
       "strength": 0.6,
-      "when": "Clean markdown for documentation",
-      "yields": "See target skill"
+      "context": "Clean markdown for documentation"
     },
     {
       "target": ".github/skills/appropriate-reliance/SKILL.md",
       "type": "validates",
       "strength": 0.6,
-      "when": "Evidence-based claims",
-      "yields": "See target skill"
+      "context": "Evidence-based claims"
     }
   ],
-  "activationContexts": [
+  "activationPatterns": [
     "writing article",
     "academic paper",
     "publication strategy",
@@ -43,5 +38,6 @@
     "proofread",
     "manuscript"
   ],
+  "$schema": "../SYNAPSE-SCHEMA.json",
   "schemaVersion": "2.0.0"
 }

@@ -1,68 +1,58 @@
 {
-  "$schema": "../SYNAPSE-SCHEMA.json",
-  "skillId": "ai-agent-design",
-  "version": "1.2.0",
-  "lastUpdated": "2026-02-09",
+  "skill": "ai-agent-design",
+  "version": "1.1.0",
   "inheritance": "inheritable",
   "connections": [
     {
       "target": ".github/skills/prompt-engineering/SKILL.md",
+      "relationship": "requires",
       "strength": 0.9,
-      "type": "REQUIRES",
-      "when": "Agent prompts require sophisticated prompt engineering",
-      "yields": "See target skill"
+      "context": "Agent prompts require sophisticated prompt engineering"
     },
     {
       "target": ".github/skills/rag-architecture/SKILL.md",
+      "relationship": "complements",
       "strength": 0.9,
-      "type": "COMPLEMENTS",
-      "when": "Agents often use RAG for knowledge retrieval",
-      "yields": "See target skill"
+      "context": "Agents often use RAG for knowledge retrieval"
     },
     {
       "target": ".github/skills/mcp-development/SKILL.md",
+      "relationship": "complements",
       "strength": 0.9,
-      "type": "COMPLEMENTS",
-      "when": "MCP provides standardized tool interface for agents",
-      "yields": "See target skill"
+      "context": "MCP provides standardized tool interface for agents"
     },
     {
       "target": ".github/skills/llm-model-selection/SKILL.md",
+      "relationship": "informs",
       "strength": 0.7,
-      "type": "INFORMS",
-      "when": "Agent design requires model selection for different components",
-      "yields": "See target skill"
+      "context": "Agent design requires model selection for different components"
     },
     {
       "target": ".github/skills/api-design/SKILL.md",
+      "relationship": "complements",
       "strength": 0.7,
-      "type": "COMPLEMENTS",
-      "when": "Tool APIs must be well-designed for agent consumption",
-      "yields": "See target skill"
+      "context": "Tool APIs must be well-designed for agent consumption"
     },
     {
       "target": ".github/skills/anti-hallucination/SKILL.md",
+      "relationship": "requires",
       "strength": 0.9,
-      "type": "REQUIRES",
-      "when": "Agents must detect and handle hallucinated tool calls",
-      "yields": "See target skill"
+      "context": "Agents must detect and handle hallucinated tool calls"
     },
     {
       "target": ".github/skills/error-recovery-patterns/SKILL.md",
+      "relationship": "requires",
       "strength": 0.9,
-      "type": "REQUIRES",
-      "when": "Agents need robust error handling and recovery",
-      "yields": "See target skill"
+      "context": "Agents need robust error handling and recovery"
     },
     {
       "target": ".github/skills/testing-strategies/SKILL.md",
+      "relationship": "complements",
       "strength": 0.7,
-      "type": "COMPLEMENTS",
-      "when": "Agent testing requires specialized evaluation approaches",
-      "yields": "See target skill"
+      "context": "Agent testing requires specialized evaluation approaches"
     }
   ],
-  "activationContexts": [
+  "activationTriggers": [
     "agent",
     "autonomous",
     "multi-agent",
@@ -85,5 +75,6 @@
       "api-design"
     ]
   },
+  "$schema": "../SYNAPSE-SCHEMA.json",
   "schemaVersion": "2.0.0"
 }

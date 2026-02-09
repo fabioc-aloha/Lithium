@@ -1,32 +1,27 @@
 {
-  "$schema": "../SYNAPSE-SCHEMA.json",
-  "skillId": "vscode-extension-patterns",
-  "lastUpdated": "2026-02-09",
+  "skill": "vscode-extension-patterns",
   "inheritance": "heir:vscode",
   "connections": [
     {
       "target": ".github/instructions/release-management.instructions.md",
       "type": "enables",
       "strength": 0.85,
-      "when": "Publishing workflow",
-      "yields": "See target skill"
+      "context": "Publishing workflow"
     },
     {
       "target": ".github/skills/heir-curation/SKILL.md",
       "type": "implements",
       "strength": 0.85,
-      "when": "VS Code heir patterns",
-      "yields": "See target skill"
+      "context": "VS Code heir patterns"
     },
     {
       "target": ".github/skills/security-review/SKILL.md",
       "type": "implements",
-      "strength": 0.8,
-      "when": "CSP, SecretStorage, telemetry compliance",
-      "yields": "See target skill"
+      "strength": 0.80,
+      "context": "CSP, SecretStorage, telemetry compliance"
     }
   ],
-  "activationContexts": [
+  "activationPatterns": [
     "VS Code extension development",
     "webview implementation",
     "publishing extension",
@@ -49,5 +44,6 @@
     "CSP",
     "telemetry"
   ],
+  "$schema": "../SYNAPSE-SCHEMA.json",
   "schemaVersion": "2.0.0"
 }

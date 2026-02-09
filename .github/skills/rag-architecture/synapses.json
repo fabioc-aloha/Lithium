@@ -1,7 +1,5 @@
 {
-  "$schema": "../SYNAPSE-SCHEMA.json",
-  "skillId": "rag-architecture",
-  "lastUpdated": "2026-02-09",
+  "skill": "rag-architecture",
   "inheritance": "inheritable",
   "connections": [
     {
@@ -65,5 +63,6 @@
     "reranking",
     "hybrid search"
   ],
+  "$schema": "../SYNAPSE-SCHEMA.json",
   "schemaVersion": "2.0.0"
 }

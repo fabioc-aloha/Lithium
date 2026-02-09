@@ -1,7 +1,5 @@
 {
-  "$schema": "../SYNAPSE-SCHEMA.json",
-  "skillId": "chat-participant-patterns",
-  "lastUpdated": "2026-02-09",
+  "skill": "chat-participant-patterns",
   "inheritance": "heir:vscode",
   "connections": [
     {
@@ -30,5 +28,6 @@
     "chat API",
     "streaming response"
   ],
+  "$schema": "../SYNAPSE-SCHEMA.json",
   "schemaVersion": "2.0.0"
 }

@@ -1,7 +1,5 @@
 {
-  "$schema": "../SYNAPSE-SCHEMA.json",
-  "skillId": "debugging-patterns",
-  "lastUpdated": "2026-02-09",
+  "skill": "debugging-patterns",
   "inheritance": "inheritable",
   "connections": [
     {
@@ -35,5 +33,6 @@
     "reproduce",
     "isolate bug"
   ],
+  "$schema": "../SYNAPSE-SCHEMA.json",
   "schemaVersion": "2.0.0"
 }

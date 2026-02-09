@@ -1,7 +1,5 @@
 {
-  "$schema": "../SYNAPSE-SCHEMA.json",
-  "skillId": "pii-privacy-regulations",
-  "lastUpdated": "2026-02-09",
+  "skill": "pii-privacy-regulations",
   "inheritance": "inheritable",
   "connections": [
     {
@@ -66,5 +64,6 @@
     "DPO",
     "DPIA"
   ],
+  "$schema": "../SYNAPSE-SCHEMA.json",
   "schemaVersion": "2.0.0"
 }

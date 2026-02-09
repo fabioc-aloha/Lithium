@@ -1,8 +1,5 @@
 {
-  "$schema": "../SYNAPSE-SCHEMA.json",
-  "skillId": "graphic-design",
-  "lastUpdated": "2026-02-09",
-  "inheritance": "inheritable",
+  "skill": "graphic-design",
   "connections": [
     {
       "bidirectional": true,
@@ -44,6 +41,7 @@
       "target": ".github/skills/writing-publication/SKILL.md"
     }
   ],
+  "inheritance": "inheritable",
   "triggers": [
     "design",
     "visual",
@@ -61,5 +59,6 @@
     "diagram colors",
     "mermaid colors"
   ],
+  "$schema": "../SYNAPSE-SCHEMA.json",
   "schemaVersion": "2.0.0"
 }

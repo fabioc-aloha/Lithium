@@ -1,7 +1,5 @@
 {
-  "$schema": "../SYNAPSE-SCHEMA.json",
-  "skillId": "testing-strategies",
-  "lastUpdated": "2026-02-09",
+  "skill": "testing-strategies",
   "inheritance": "inheritable",
   "connections": [
     {
@@ -34,5 +32,6 @@
     "integration test",
     "E2E"
   ],
+  "$schema": "../SYNAPSE-SCHEMA.json",
   "schemaVersion": "2.0.0"
 }

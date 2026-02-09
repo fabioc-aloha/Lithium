@@ -1,7 +1,5 @@
 {
-  "$schema": "../SYNAPSE-SCHEMA.json",
-  "skillId": "microsoft-sfi",
-  "lastUpdated": "2026-02-09",
+  "skill": "microsoft-sfi",
   "inheritance": "inheritable",
   "connections": [
     {
@@ -60,5 +58,6 @@
     "identity protection",
     "tenant isolation"
   ],
+  "$schema": "../SYNAPSE-SCHEMA.json",
   "schemaVersion": "2.0.0"
 }

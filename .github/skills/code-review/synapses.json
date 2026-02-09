@@ -1,7 +1,5 @@
 {
-  "$schema": "../SYNAPSE-SCHEMA.json",
-  "skillId": "code-review",
-  "lastUpdated": "2026-02-09",
+  "skill": "code-review",
   "inheritance": "inheritable",
   "connections": [
     {
@@ -31,5 +29,6 @@
     "approve",
     "merge"
   ],
+  "$schema": "../SYNAPSE-SCHEMA.json",
   "schemaVersion": "2.0.0"
 }

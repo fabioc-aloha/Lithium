@@ -1,29 +1,27 @@
 {
-  "$schema": "../SYNAPSE-SCHEMA.json",
-  "skillId": "meditation-facilitation",
-  "lastUpdated": "2026-02-08",
-  "inheritance": "master-only",
+  "skill": "meditation-facilitation",
+  "inheritance": "inheritable",
   "connections": [
     {
-      "target": "unified-meditation-protocols.prompt.md",
+      "target": ".github/prompts/unified-meditation-protocols.prompt.md",
       "type": "implements",
       "strength": 0.9,
       "reason": "This skill guides meditation prompts"
     },
     {
-      "target": "learning-psychology",
+      "target": ".github/skills/learning-psychology/SKILL.md",
       "type": "applies",
       "strength": 0.8,
       "reason": "Meditation uses spaced retrieval"
     },
     {
-      "target": "cognitive-load",
+      "target": ".github/skills/cognitive-load/SKILL.md",
       "type": "applies",
       "strength": 0.8,
       "reason": "Meditation manages cognitive load"
     },
     {
-      "target": "knowledge-synthesis",
+      "target": ".github/skills/knowledge-synthesis/SKILL.md",
       "type": "enables",
       "strength": 0.9,
       "reason": "Meditation leads to synthesis"
@@ -35,5 +33,7 @@
     "consolidate",
     "what did we learn",
     "session summary"
-  ]
+  ],
+  "$schema": "../SYNAPSE-SCHEMA.json",
+  "schemaVersion": "2.0.0"
 }

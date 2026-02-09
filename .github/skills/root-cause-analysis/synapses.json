@@ -1,7 +1,5 @@
 {
-  "$schema": "../SYNAPSE-SCHEMA.json",
-  "skillId": "root-cause-analysis",
-  "lastUpdated": "2026-02-09",
+  "skill": "root-cause-analysis",
   "inheritance": "inheritable",
   "connections": [
     {
@@ -30,5 +28,6 @@
     "why did this happen",
     "how do we prevent"
   ],
+  "$schema": "../SYNAPSE-SCHEMA.json",
   "schemaVersion": "2.0.0"
 }

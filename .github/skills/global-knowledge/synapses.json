@@ -1,26 +1,49 @@
 {
-  "$schema": "../SYNAPSE-SCHEMA.json",
-  "skillId": "global-knowledge",
-  "lastUpdated": "2026-02-08",
-  "inheritance": "master-only",
+  "skill": "global-knowledge",
+  "inheritance": "inheritable",
+  "externalRepository": "fabioc-aloha/Alex-Global-Knowledge",
   "connections": [
     {
-      "target": "knowledge-synthesis",
+      "target": ".github/skills/knowledge-synthesis/SKILL.md",
       "type": "stores",
       "strength": 0.75,
       "reason": "Synthesis outputs go to global KB"
     },
     {
-      "target": "meditation-facilitation",
+      "target": ".github/skills/meditation-facilitation/SKILL.md",
       "type": "informs",
       "strength": 0.65,
       "reason": "Meditation creates global insights"
     },
     {
-      "target": "bootstrap-learning",
+      "target": ".github/skills/bootstrap-learning/SKILL.md",
       "type": "accelerates",
       "strength": 0.8,
       "reason": "Prior knowledge speeds learning"
+    },
+    {
+      "target": "external:Alex-Global-Knowledge/index.json",
+      "type": "stores",
+      "strength": 0.9,
+      "reason": "Primary storage for cross-project patterns and insights"
+    },
+    {
+      "target": ".github/instructions/heir-skill-promotion.instructions.md",
+      "type": "informs",
+      "strength": 0.9,
+      "reason": "Promotion candidate patterns guide heir skill evolution"
+    },
+    {
+      "target": ".github/instructions/global-knowledge-curation.instructions.md",
+      "type": "informs",
+      "strength": 0.85,
+      "reason": "Curation protocol uses promotion patterns"
+    },
+    {
+      "target": ".github/prompts/unified-meditation-protocols.prompt.md",
+      "type": "triggers",
+      "strength": 0.8,
+      "reason": "Auto-promotion during meditation sessions"
     }
   ],
   "triggers": [
@@ -29,6 +52,11 @@
     "pattern",
     "cross-project",
     "global",
-    "reusable"
-  ]
+    "reusable",
+    "promotion",
+    "promote",
+    "candidate"
+  ],
+  "$schema": "../SYNAPSE-SCHEMA.json",
+  "schemaVersion": "2.0.0"
 }
