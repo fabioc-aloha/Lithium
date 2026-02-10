@@ -1,0 +1,49 @@
+{
+  "skill": "vscode-extension-patterns",
+  "inheritance": "heir:vscode",
+  "connections": [
+    {
+      "target": ".github/instructions/release-management.instructions.md",
+      "type": "enables",
+      "strength": 0.85,
+      "context": "Publishing workflow"
+    },
+    {
+      "target": ".github/skills/heir-curation/SKILL.md",
+      "type": "implements",
+      "strength": 0.85,
+      "context": "VS Code heir patterns"
+    },
+    {
+      "target": ".github/skills/security-review/SKILL.md",
+      "type": "implements",
+      "strength": 0.80,
+      "context": "CSP, SecretStorage, telemetry compliance"
+    }
+  ],
+  "activationPatterns": [
+    "VS Code extension development",
+    "webview implementation",
+    "publishing extension",
+    "settings configuration",
+    "auto-detection features",
+    "SecretStorage token migration",
+    "CSP Content-Security-Policy",
+    "telemetry opt-out compliance",
+    "onDidChangeConfiguration listener"
+  ],
+  "triggers": [
+    "extension",
+    "VS Code API",
+    "command",
+    "webview",
+    "tree view",
+    "activation",
+    "contribution point",
+    "SecretStorage",
+    "CSP",
+    "telemetry"
+  ],
+  "$schema": "../SYNAPSE-SCHEMA.json",
+  "schemaVersion": "2.0.0"
+}

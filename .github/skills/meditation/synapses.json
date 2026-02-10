@@ -1,5 +1,7 @@
 {
-  "skill": "meditation",
+  "$schema": "../SYNAPSE-SCHEMA.json",
+  "skillId": "meditation",
+  "lastUpdated": "2026-02-10",
   "inheritance": "inheritable",
   "connections": [
     {
@@ -52,6 +54,5 @@
     "deep thought",
     "what did we learn"
   ],
-  "$schema": "../SYNAPSE-SCHEMA.json",
   "schemaVersion": "2.0.0"
 }

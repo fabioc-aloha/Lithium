@@ -1,7 +1,8 @@
 {
-  "skill": "global-knowledge",
+  "$schema": "../SYNAPSE-SCHEMA.json",
+  "skillId": "global-knowledge",
+  "lastUpdated": "2026-02-10",
   "inheritance": "inheritable",
-  "externalRepository": "fabioc-aloha/Alex-Global-Knowledge",
   "connections": [
     {
       "target": ".github/skills/knowledge-synthesis/SKILL.md",
@@ -44,8 +45,15 @@
       "type": "triggers",
       "strength": 0.8,
       "reason": "Auto-promotion during meditation sessions"
+    },
+    {
+      "target": "external:Alex-Global-Knowledge/insights/GI-gk-index-schema-drift-detection-2026-02-10.md",
+      "type": "validates",
+      "strength": 0.85,
+      "reason": "Schema integrity checks for index entries"
     }
   ],
+  "externalRepository": "fabioc-aloha/Alex-Global-Knowledge",
   "triggers": [
     "knowledge",
     "insight",
@@ -57,6 +65,5 @@
     "promote",
     "candidate"
   ],
-  "$schema": "../SYNAPSE-SCHEMA.json",
   "schemaVersion": "2.0.0"
 }

@@ -1,27 +1,36 @@
 {
-  "skill": "vscode-extension-patterns",
+  "$schema": "../SYNAPSE-SCHEMA.json",
+  "skillId": "vscode-extension-patterns",
+  "version": "1.2.0",
+  "lastUpdated": "2026-02-10",
   "inheritance": "heir:vscode",
   "connections": [
     {
       "target": ".github/instructions/release-management.instructions.md",
       "type": "enables",
       "strength": 0.85,
-      "context": "Publishing workflow"
+      "reason": "Publishing workflow"
     },
     {
       "target": ".github/skills/heir-curation/SKILL.md",
       "type": "implements",
       "strength": 0.85,
-      "context": "VS Code heir patterns"
+      "reason": "VS Code heir patterns"
     },
     {
       "target": ".github/skills/security-review/SKILL.md",
       "type": "implements",
-      "strength": 0.80,
-      "context": "CSP, SecretStorage, telemetry compliance"
+      "strength": 0.8,
+      "reason": "CSP, SecretStorage, telemetry compliance"
+    },
+    {
+      "target": ".github/skills/enterprise-integration/SKILL.md",
+      "type": "extends",
+      "strength": 0.75,
+      "reason": "Enterprise patterns for Graph, Azure AD auth"
     }
   ],
-  "activationPatterns": [
+  "activationContexts": [
     "VS Code extension development",
     "webview implementation",
     "publishing extension",
@@ -32,6 +41,8 @@
     "telemetry opt-out compliance",
     "onDidChangeConfiguration listener"
   ],
+  "schemaVersion": "2.0.0",
+  "lastValidated": "2026-02-10",
   "triggers": [
     "extension",
     "VS Code API",
@@ -43,7 +54,5 @@
     "SecretStorage",
     "CSP",
     "telemetry"
-  ],
-  "$schema": "../SYNAPSE-SCHEMA.json",
-  "schemaVersion": "2.0.0"
+  ]
 }

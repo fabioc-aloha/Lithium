@@ -1,11 +1,9 @@
 {
   "$schema": "../SYNAPSE-SCHEMA.json",
-  "schemaVersion": "2.0.0",
   "skillId": "security-review",
-  "version": "1.1.0",
+  "version": "1.2.0",
+  "lastUpdated": "2026-02-10",
   "inheritance": "inheritable",
-  "created": "2026-02-01",
-  "description": "Security-focused code analysis, OWASP patterns, threat modeling",
   "connections": [
     {
       "target": ".github/skills/incident-response/SKILL.md",
@@ -56,7 +54,7 @@
       "description": "Enterprise secrets scanning with 20+ detection patterns"
     }
   ],
-  "activationTriggers": [
+  "activationContexts": [
     "security review",
     "vulnerability",
     "OWASP",
@@ -77,5 +75,7 @@
     "enterprise security",
     "Entra ID",
     "RBAC"
-  ]
+  ],
+  "notes": "Security-focused code analysis, OWASP patterns, threat modeling",
+  "schemaVersion": "2.0.0"
 }
