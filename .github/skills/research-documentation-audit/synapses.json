@@ -1,0 +1,131 @@
+{
+  "skill": "research-documentation-audit",
+  "connections": [
+    {
+      "target": ".github/instructions/heir-project-improvement.instructions.md",
+      "strength": "High",
+      "relationshipType": "Extends",
+      "direction": "Bidirectional",
+      "reasoning": "Audit is Phase 1 of project improvement workflow - discovers gaps before creating trifectas"
+    },
+    {
+      "target": ".github/skills/code-review/SKILL.md",
+      "strength": "Medium",
+      "relationshipType": "Parallels",
+      "direction": "Forward",
+      "reasoning": "Both use systematic review methodology to find issues before production/submission"
+    },
+    {
+      "target": ".github/instructions/technical-debt-tracking.instructions.md",
+      "strength": "Medium",
+      "relationshipType": "Complements",
+      "direction": "Forward",
+      "reasoning": "Documentation debt is a form of technical debt - same tracking and prioritization principles"
+    },
+    {
+      "target": ".github/skills/testing-strategies/SKILL.md",
+      "strength": "Low",
+      "relationshipType": "Analogous",
+      "direction": "Forward",
+      "reasoning": "Audit finds documentation gaps like tests find code gaps - both are quality gates"
+    },
+    {
+      "target": ".github/instructions/research-first-workflow.instructions.md",
+      "strength": "High",
+      "relationshipType": "Complements",
+      "direction": "Bidirectional",
+      "reasoning": "Audit validates that research-first principles were followed - finds knowledge gaps"
+    },
+    {
+      "target": ".github/skills/markdown-mermaid/SKILL.md",
+      "strength": "Low",
+      "relationshipType": "Supports",
+      "direction": "Forward",
+      "reasoning": "Complex audit findings benefit from timeline diagrams and dependency visualizations"
+    },
+    {
+      "target": ".github/instructions/privacy-protection.instructions.md",
+      "strength": "High",
+      "relationshipType": "Invokes",
+      "direction": "Forward",
+      "reasoning": "Privacy scan is Phase 2 of audit - detects and sanitizes PII exposure",
+      "note": "This instruction file doesn't exist yet but should be created from this audit's privacy patterns"
+    }
+  ],
+  "when": [
+    {
+      "userIntent": "audit research project",
+      "confidence": 0.95,
+      "activation": "automatic"
+    },
+    {
+      "userIntent": "IRB submission preparation",
+      "confidence": 0.90,
+      "activation": "automatic"
+    },
+    {
+      "userIntent": "clinical trial documentation review",
+      "confidence": 0.85,
+      "activation": "automatic"
+    },
+    {
+      "userIntent": "find documentation inconsistencies",
+      "confidence": 0.80,
+      "activation": "suggest"
+    },
+    {
+      "userIntent": "multi-PI coordination",
+      "confidence": 0.70,
+      "activation": "suggest"
+    }
+  ],
+  "yields": [
+    {
+      "output": "TODO.md with prioritized action items (P0/P1/P2/P3)",
+      "format": "markdown",
+      "location": "project root"
+    },
+    {
+      "output": "Session summary with completed quick wins",
+      "format": "markdown",
+      "location": "embedded in TODO.md"
+    },
+    {
+      "output": "Critical path timeline with dependencies",
+      "format": "markdown table or mermaid diagram",
+      "location": "TODO.md or separate TIMELINE.md"
+    },
+    {
+      "output": "Stakeholder communication template",
+      "format": "email draft",
+      "location": "TODO.md or separate EMAIL-DRAFT.md"
+    },
+    {
+      "output": "Git commit history with descriptive messages",
+      "format": "git log",
+      "location": "repository history"
+    },
+    {
+      "output": "Privacy scan report (if PII found)",
+      "format": "markdown",
+      "location": "TODO.md section or SECURITY-AUDIT.md"
+    }
+  ],
+  "metadata": {
+    "created": "2026-02-15",
+    "firstUse": "Lithium Alzheimer's research project IRB prep",
+    "complexity": "Medium",
+    "estimatedTime": "3-4 hours for full audit",
+    "prerequisites": [
+      "Clinical research project with 10+ interconnected documents",
+      "Regulatory deadline (IRB, grant, audit)",
+      "Multiple stakeholders requiring coordination"
+    ],
+    "successMetrics": {
+      "issueDetection": "80%+ of inconsistencies found",
+      "quickWinCompletion": "50%+ items executed without stakeholder input",
+      "privacyProtection": "100% PII sanitized",
+      "timelineAccuracy": "90%+ estimates within 2x actual"
+    }
+  }
+}
