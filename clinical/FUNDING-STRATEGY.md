@@ -229,15 +229,19 @@ Verdant Health Commission is a Washington State public hospital district (South 
 
 ### 3.2 NIA Relevant Funding Opportunity Announcements (FOAs)
 
-| FOA | Focus | Relevance |
-|-----|-------|-----------|
-| PAR-23-057 | Alzheimer's Drug Development | High - repurposing existing compounds |
-| PAR-22-093 | Pilot Clinical Trials for AD | High - early-phase trials |
-| PA-20-185 | Research on Informal and Formal Caregiving | Medium - if including caregiver outcomes |
-| NOT-AG-24-004 | AD research supplements | High - supplemental funding |
+> ⚠️ **IMPORTANT**: FOAs listed below are from 2020-2024 and may be expired. **MUST verify current status** before citing in applications. Check [NIH Guide](https://grants.nih.gov/funding/searchguide/index.html) for active FOAs or successor programs.
+
+| FOA | Focus | Relevance | Status (Feb 2026) |
+|-----|-------|-----------|-------------------|
+| PAR-23-057 | Alzheimer's Drug Development | High - repurposing existing compounds | ⚠️ Verify expiration |
+| PAR-22-093 | Pilot Clinical Trials for AD | High - early-phase trials | ⚠️ Likely expired |
+| PA-20-185 | Research on Informal and Formal Caregiving | Medium - if including caregiver outcomes | ⚠️ Likely expired |
+| NOT-AG-24-004 | AD research supplements | High - supplemental funding | ⚠️ Notices short-lived |
 
 **Action Items**:
-- [ ] Monitor NIH Guide for new FOAs
+- [ ] **URGENT**: Search NIH Guide for current Alzheimer's/MCI FOAs (before any grant work)
+- [ ] Check for successor FOAs to expired programs (NIH often releases updated versions)
+- [ ] Monitor NIH Guide monthly for new FOAs
 - [ ] Register in eRA Commons (all PIs)
 - [ ] Obtain DUNS/UEI number for Lahai Health
 - [ ] Complete PI biosketches

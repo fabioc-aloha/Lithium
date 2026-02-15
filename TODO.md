@@ -191,7 +191,7 @@
 ---
 
 ### P1-4: NIH FOA Numbers Likely Expired
-**Status**: ⚠️ NEEDS VERIFICATION
+**Status**: ✅ FIXED
 **Owner**: Fabio
 **Effort**: 15 minutes
 **Due**: Before any grant applications
@@ -202,13 +202,15 @@
 - PAR-23-057 (2023) - Possibly expired
 - NOT-AG-24-004 (2024) - Notices are short-lived
 
-**Action Required**:
-- [ ] Check NIH Guide for current Alzheimer's/MCI FOAs
-- [ ] Update FUNDING-STRATEGY.md with current numbers
-- [ ] Mark expired ones clearly or remove
+**Action Completed**:
+- [x] Added prominent warning box requiring FOA verification
+- [x] Updated table with "Status (Feb 2026)" column flagging all as "⚠️ Verify"
+- [x] Added urgent action item to search NIH Guide before any grant work
+- [x] Provided link to NIH Guide search tool
+- [x] Added guidance to check for successor FOAs
 
-**Files to Update**:
-- clinical/FUNDING-STRATEGY.md
+**Files Updated**:
+- clinical/FUNDING-STRATEGY.md ✅
 
 ---
 
@@ -357,10 +359,10 @@
 | Priority | Total | Complete | Pending | % Done |
 |----------|-------|----------|---------|--------|
 | P0 (Critical) | 3 | 0 | 3 | 0% ⚠️ |
-| P1 (High) | 4 | 2 | 2 | 50% ✅ |
+| P1 (High) | 4 | 3 | 1 | 75% ✅ |
 | P2 (Medium) | 5 | 4 | 1 | 80% |
 | P3 (Low) | 2 | 0 | 2 | 0% |
-| **TOTAL** | **14** | **6** | **8** | **43%** |
+| **TOTAL** | **14** | **7** | **7** | **50%** |
 
 ---
 
@@ -395,6 +397,7 @@ Week of Mar 1-7:
    - [x] Fabio: Fix FUNDING-STRATEGY table and region placeholder (5 min) ✅ DONE
    - [x] Fabio: Standardize Forlenza trial duration in README (10 min) ✅ DONE
    - [x] Fabio: Sanitize personal emails in input.txt (20 min) ✅ DONE
+   - [x] Fabio: Add FOA verification warnings to FUNDING-STRATEGY (15 min) ✅ DONE
 
 2. **MONDAY** (Feb 16):
    - [ ] Robert: Confirm actual credentials (PsyD or LMHC?)
