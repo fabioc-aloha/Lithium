@@ -239,7 +239,7 @@
 ---
 
 ### P2-2: README Quick Links Incomplete
-**Status**: 📚 DOCUMENTATION
+**Status**: ✅ FIXED
 **Owner**: Fabio
 **Effort**: 5 minutes
 **Due**: February 25, 2026
@@ -251,11 +251,11 @@
 - research/RESEARCH-PROTOCOL.md
 - literature/EPIDEMIOLOGICAL-STUDIES.md
 
-**Action Required**:
-- [ ] Add missing files to README.md Quick Links section
+**Action Completed**:
+- [x] Added all 5 missing files to README.md Quick Links section in logical thematic order
 
-**Files to Update**:
-- README.md
+**Files Updated**:
+- README.md ✅
 
 ---
 
@@ -357,9 +357,9 @@
 |----------|-------|----------|---------|--------|
 | P0 (Critical) | 3 | 0 | 3 | 0% ⚠️ |
 | P1 (High) | 4 | 2 | 2 | 50% ✅ |
-| P2 (Medium) | 5 | 0 | 5 | 0% |
+| P2 (Medium) | 5 | 1 | 4 | 20% |
 | P3 (Low) | 2 | 0 | 2 | 0% |
-| **TOTAL** | **14** | **2** | **12** | **14%** |
+| **TOTAL** | **14** | **3** | **11** | **21%** |
 
 ---
 
@@ -390,6 +390,7 @@ Week of Mar 1-7:
    - [ ] Fabio: Email all PIs requesting contact info
    - [x] Fabio: Fix README.md Phase 1 timeline (2 min) ✅ DONE
    - [x] Fabio: Standardize lab monitoring schedules across 4 files (5 min) ✅ DONE
+   - [x] Fabio: Add 5 missing Quick Links to README (5 min) ✅ DONE
 
 2. **MONDAY** (Feb 16):
    - [ ] Robert: Confirm actual credentials (PsyD or LMHC?)

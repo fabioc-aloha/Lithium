@@ -399,11 +399,16 @@ Lithium/
 | [Screening Checklist](clinical/SCREENING-CHECKLIST.md) | Clinician quick reference |
 | [Master Checklist](clinical/MASTER-CHECKLIST.md) | Project tracking & milestones |
 | [Funding Strategy](clinical/FUNDING-STRATEGY.md) | Grants, backers, budget |
+| [Research Protocol](research/RESEARCH-PROTOCOL.md) | Systematic literature review methodology |
 | [Literature Matrix](literature/LITERATURE-MATRIX.md) | Full source matrix |
 | [Primary Sources](literature/PRIMARY-SOURCES.md) | Detailed source review |
-| [Evidence Synthesis](analysis/EVIDENCE-SYNTHESIS.md) | Hypothesis evaluation |
 | [Clinical Trials](literature/CLINICAL-TRIALS.md) | RCT details |
+| [Epidemiological Studies](literature/EPIDEMIOLOGICAL-STUDIES.md) | Population-level evidence |
+| [Evidence Synthesis](analysis/EVIDENCE-SYNTHESIS.md) | Hypothesis evaluation |
+| [Hypothesis Evaluation](analysis/HYPOTHESIS-EVALUATION.md) | Detailed hypothesis testing |
 | [Clinical Implications](docs/CLINICAL-IMPLICATIONS.md) | Medical guidance |
+| [PI Observations](docs/PI-OBSERVATIONS.md) | Clinical insights from PI team |
+| [Future Research](docs/FUTURE-RESEARCH.md) | Research roadmap |
 
 ---
 
