@@ -76,8 +76,8 @@ Se você concordar em participar:
 
 | Teste | Propósito | Frequência |
 |-------|-----------|------------|
-| Testes de memória (MoCA, MMSE) | Acompanhar função cognitiva | A cada 3 meses |
-| Exames de sangue (rim, tireoide) | Monitorar segurança | A cada 3 meses |
+| Testes de memória (MoCA, MMSE) | Acompanhar função cognitiva | Inicial, meses 3, 6, 12 |
+| Exames de sangue (rim, tireoide) | Monitorar segurança | Inicial, meses 3, 6, 12 |
 | Questionários (humor, qualidade de vida) | Bem-estar geral | Inicial, 6, 12 meses |
 
 ---

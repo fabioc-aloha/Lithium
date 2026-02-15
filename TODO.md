@@ -147,7 +147,7 @@
 ---
 
 ### P1-2: Lab Monitoring Schedule Conflict
-**Status**: ⚠️ INCONSISTENT
+**Status**: ✅ FIXED
 **Owner**: Fabio
 **Effort**: 5 minutes
 **Due**: February 22, 2026
@@ -157,13 +157,17 @@
 - INFORMED-CONSENT.md: "Every 3 months"
 - PI-OBSERVATIONS.md: "Every 6 months"
 
-**Action Required**:
-- [ ] Update PI-OBSERVATIONS.md to match protocol (months 3, 6, 12)
-- [ ] Confirm INFORMED-CONSENT.md "every 3 months" is accurate
+**Action Completed**:
+- [x] Updated PI-OBSERVATIONS.md to match protocol (months 3, 6, 12) with detailed table
+- [x] Updated INFORMED-CONSENT.md to "Baseline, months 3, 6, 12"
+- [x] Updated INFORMED-CONSENT-ES.md to "Inicial, meses 3, 6, 12"
+- [x] Updated INFORMED-CONSENT-PT.md to "Inicial, meses 3, 6, 12"
 
-**Files to Update**:
-- docs/PI-OBSERVATIONS.md
-- clinical/INFORMED-CONSENT.md (verify)
+**Files Updated**:
+- docs/PI-OBSERVATIONS.md ✅
+- clinical/INFORMED-CONSENT.md ✅
+- clinical/INFORMED-CONSENT-ES.md ✅
+- clinical/INFORMED-CONSENT-PT.md ✅
 
 ---
 
@@ -352,10 +356,10 @@
 | Priority | Total | Complete | Pending | % Done |
 |----------|-------|----------|---------|--------|
 | P0 (Critical) | 3 | 0 | 3 | 0% ⚠️ |
-| P1 (High) | 4 | 1 | 3 | 25% ✅ |
+| P1 (High) | 4 | 2 | 2 | 50% ✅ |
 | P2 (Medium) | 5 | 0 | 5 | 0% |
 | P3 (Low) | 2 | 0 | 2 | 0% |
-| **TOTAL** | **14** | **1** | **13** | **7%** |
+| **TOTAL** | **14** | **2** | **12** | **14%** |
 
 ---
 
@@ -385,6 +389,7 @@ Week of Mar 1-7:
 1. **TODAY** (Feb 15):
    - [ ] Fabio: Email all PIs requesting contact info
    - [x] Fabio: Fix README.md Phase 1 timeline (2 min) ✅ DONE
+   - [x] Fabio: Standardize lab monitoring schedules across 4 files (5 min) ✅ DONE
 
 2. **MONDAY** (Feb 16):
    - [ ] Robert: Confirm actual credentials (PsyD or LMHC?)
@@ -400,7 +405,7 @@ Week of Mar 1-7:
 
 5. **THURSDAY-FRIDAY** (Feb 19-20):
    - [ ] PI Team: Decide MoCA criterion
-   - [ ] Fabio: Update all consistency issues (P1-1, P1-2)
+   - [ ] Fabio: Update remaining consistency issue (P1-1)
 
 ---
 

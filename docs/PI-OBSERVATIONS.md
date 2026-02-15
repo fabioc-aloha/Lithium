@@ -80,12 +80,16 @@ Based on Dr. Cohen's experience:
 
 ### Monitoring Protocol (from Dr. Cohen's recommendations)
 
-| Test | Baseline | Ongoing |
-| --- | --- | --- |
-| Kidney function (eGFR, Cr) | Required | Every 6 months |
-| Thyroid function (TSH) | Required | Every 6 months |
-| Lithium level (if carbonate) | If applicable | As needed |
-| Cognitive testing | Required | Every 6 months |
+Based on IRB-PROTOCOL.md Section 5.5:
+
+| Test | Baseline | Month 3 | Month 6 | Month 12 |
+| --- | --- | --- | --- | --- |
+| Kidney function (eGFR, Cr) | ✓ | ✓ | ✓ | ✓ |
+| Thyroid function (TSH) | ✓ | ✓ | ✓ | ✓ |
+| Lithium level (if carbonate) | Optional | Optional | Optional | Optional |
+| Cognitive testing | ✓ | ✓ | ✓ | ✓ |
+
+**Schedule Summary**: Monitoring occurs at baseline, then quarterly for the first 6 months (months 3, 6), then at 6-month intervals (month 12).
 
 ---
 

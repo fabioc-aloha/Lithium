@@ -76,8 +76,8 @@ If you agree to participate:
 
 | Test | Purpose | Frequency |
 |------|---------|-----------|
-| Memory tests (MoCA, MMSE) | Track cognitive function | Every 3 months |
-| Blood tests (kidney, thyroid) | Monitor safety | Every 3 months |
+| Memory tests (MoCA, MMSE) | Track cognitive function | Baseline, months 3, 6, 12 |
+| Blood tests (kidney, thyroid) | Monitor safety | Baseline, months 3, 6, 12 |
 | Questionnaires (mood, quality of life) | Overall wellbeing | Baseline, 6, 12 months |
 
 ---

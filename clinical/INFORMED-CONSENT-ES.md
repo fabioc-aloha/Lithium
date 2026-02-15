@@ -76,8 +76,8 @@ Si acepta participar:
 
 | Prueba | Propósito | Frecuencia |
 |--------|-----------|------------|
-| Pruebas de memoria (MoCA, MMSE) | Seguimiento de la función cognitiva | Cada 3 meses |
-| Análisis de sangre (riñón, tiroides) | Monitorear seguridad | Cada 3 meses |
+| Pruebas de memoria (MoCA, MMSE) | Seguimiento de la función cognitiva | Inicial, meses 3, 6, 12 |
+| Análisis de sangre (riñón, tiroides) | Monitorear seguridad | Inicial, meses 3, 6, 12 |
 | Cuestionarios (estado de ánimo, calidad de vida) | Bienestar general | Inicial, 6, 12 meses |
 
 ---
