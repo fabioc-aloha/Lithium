@@ -294,7 +294,7 @@
 ---
 
 ### P2-5: Forlenza Trial Duration Framing Inconsistent
-**Status**: 📝 CLARITY
+**Status**: ✅ FIXED
 **Owner**: Fabio
 **Effort**: 10 minutes
 **Due**: Low priority
@@ -303,13 +303,12 @@
 - "4-year" in README.md (2yr double-blind + 2yr single-blind)
 - "2 years" in CLINICAL-TRIALS.md (double-blind phase only)
 
-**Action Required**:
-- [ ] Standardize description across documents
-- [ ] Note study design split when using "4-year"
+**Action Completed**:
+- [x] Updated all 4 instances in README.md to clarify "4-year study (2-year double-blind + 2-year extension)"
+- [x] Now consistent with CLINICAL-TRIALS.md detailed description
 
-**Files to Update**:
-- README.md
-- literature/CLINICAL-TRIALS.md
+**Files Updated**:
+- README.md ✅
 
 ---
 
@@ -357,9 +356,9 @@
 |----------|-------|----------|---------|--------|
 | P0 (Critical) | 3 | 0 | 3 | 0% ⚠️ |
 | P1 (High) | 4 | 2 | 2 | 50% ✅ |
-| P2 (Medium) | 5 | 2 | 3 | 40% |
+| P2 (Medium) | 5 | 3 | 2 | 60% |
 | P3 (Low) | 2 | 0 | 2 | 0% |
-| **TOTAL** | **14** | **4** | **10** | **29%** |
+| **TOTAL** | **14** | **5** | **9** | **36%** |
 
 ---
 
@@ -392,6 +391,7 @@ Week of Mar 1-7:
    - [x] Fabio: Standardize lab monitoring schedules across 4 files (5 min) ✅ DONE
    - [x] Fabio: Add 5 missing Quick Links to README (5 min) ✅ DONE
    - [x] Fabio: Fix FUNDING-STRATEGY table and region placeholder (5 min) ✅ DONE
+   - [x] Fabio: Standardize Forlenza trial duration in README (10 min) ✅ DONE
 
 2. **MONDAY** (Feb 16):
    - [ ] Robert: Confirm actual credentials (PsyD or LMHC?)
