@@ -1,8 +1,18 @@
 # Evidence Synthesis: Lithium and Alzheimer's Disease
 
+## Document Purpose
+
+This document systematically evaluates **scientific hypotheses** about lithium and Alzheimer's disease using a hypothesis-testing framework. It organizes evidence by biological mechanism and research question.
+
+**Companion Document**: See [HYPOTHESIS-EVALUATION.md](HYPOTHESIS-EVALUATION.md) for fact-checking of specific claims from the Eric Topol article.
+
+**Use This Document For**: Understanding the strength of evidence for core scientific hypotheses (neuroprotection mechanisms, formulation differences, dose-response relationships).
+
+---
+
 ## Hypothesis Evaluation Framework
 
-This document provides a systematic evaluation of the hypotheses presented in the original input document against peer-reviewed scientific evidence.
+Systematic evaluation of hypotheses against peer-reviewed scientific evidence.
 
 ---
 

@@ -2,7 +2,11 @@
 
 ## Document Purpose
 
-This document systematically evaluates each claim from the original input document against authoritative scientific evidence.
+This document fact-checks **specific claims** made in the Eric Topol newsletter article sent to the PI team. It provides a claim-by-claim verification to ensure the input document accurately represents the science.
+
+**Companion Document**: See [EVIDENCE-SYNTHESIS.md](EVIDENCE-SYNTHESIS.md) for systematic hypothesis evaluation organized by biological mechanism.
+
+**Use This Document For**: Verifying the accuracy of statements in project communications and ensuring no scientific misrepresentation.
 
 ---
 
