@@ -154,8 +154,6 @@ Verdant Health Commission is a Washington State public hospital district (South 
 | | Amendments/continuing review | $500 | 2 | $1,000 |
 | | Contingency | | | $750 |
 | **Subtotal** | | | | **$5,000** |
-
-> 📄 **See**: [IRB-SELECTION-GUIDE.md](IRB-SELECTION-GUIDE.md) for detailed IRB comparison and selection rationale. Lahai Health does not have an internal IRB.
 | **Materials & Supplies** | | | | |
 | | Cognitive assessment materials | $200 | 1 | $200 |
 | | Office supplies, printing | $300 | 1 | $300 |
@@ -170,6 +168,8 @@ Verdant Health Commission is a Washington State public hospital district (South 
 | **Subtotal** | | | | **$3,000** |
 | **Contingency (10%)** | | | | **$2,500 - $3,100** |
 | **TOTAL** | | | | **$27,900 - $33,900** |
+
+> 📄 **See**: [IRB-SELECTION-GUIDE.md](IRB-SELECTION-GUIDE.md) for detailed IRB comparison and selection rationale. Lahai Health does not have an internal IRB.
 
 ### 2.2 Cost Reduction Options
 
@@ -316,7 +316,7 @@ Verdant Health Commission is a Washington State public hospital district (South 
 
 | Foundation | Location | Notes |
 |------------|----------|-------|
-| Local community foundation | [Your region] | Smaller amounts, relationship-based |
+| Local community foundation | New England | Smaller amounts, relationship-based |
 | Health-focused family foundations | National | Research family giving databases |
 | Rotary/Lions health grants | Local | $1,000-10,000 range |
 

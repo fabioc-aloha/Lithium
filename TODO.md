@@ -275,7 +275,7 @@
 ---
 
 ### P2-4: FUNDING-STRATEGY.md Formatting Issues
-**Status**: 🔧 MINOR FIXES
+**Status**: ✅ FIXED
 **Owner**: Fabio
 **Effort**: 5 minutes
 **Due**: February 25, 2026
@@ -284,12 +284,12 @@
 - Broken table at Materials & Supplies section
 - Unfilled `[Your region]` placeholder (line 319)
 
-**Action Required**:
-- [ ] Fix broken markdown table
-- [ ] Fill or remove region placeholder
+**Action Completed**:
+- [x] Fixed markdown table by moving blockquote to end of table
+- [x] Replaced "[Your region]" with "New England"
 
-**Files to Update**:
-- clinical/FUNDING-STRATEGY.md
+**Files Updated**:
+- clinical/FUNDING-STRATEGY.md ✅
 
 ---
 
@@ -357,9 +357,9 @@
 |----------|-------|----------|---------|--------|
 | P0 (Critical) | 3 | 0 | 3 | 0% ⚠️ |
 | P1 (High) | 4 | 2 | 2 | 50% ✅ |
-| P2 (Medium) | 5 | 1 | 4 | 20% |
+| P2 (Medium) | 5 | 2 | 3 | 40% |
 | P3 (Low) | 2 | 0 | 2 | 0% |
-| **TOTAL** | **14** | **3** | **11** | **21%** |
+| **TOTAL** | **14** | **4** | **10** | **29%** |
 
 ---
 
@@ -391,6 +391,7 @@ Week of Mar 1-7:
    - [x] Fabio: Fix README.md Phase 1 timeline (2 min) ✅ DONE
    - [x] Fabio: Standardize lab monitoring schedules across 4 files (5 min) ✅ DONE
    - [x] Fabio: Add 5 missing Quick Links to README (5 min) ✅ DONE
+   - [x] Fabio: Fix FUNDING-STRATEGY table and region placeholder (5 min) ✅ DONE
 
 2. **MONDAY** (Feb 16):
    - [ ] Robert: Confirm actual credentials (PsyD or LMHC?)
