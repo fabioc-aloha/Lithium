@@ -5,7 +5,7 @@
 
 ---
 
-## � Session Summary (February 15, 2026)
+## 📝 Session Summary (February 15, 2026)
 
 ### Work Completed: 7 of 14 Items (50% → HALFWAY POINT) 🎉
 
@@ -69,7 +69,7 @@ All 3 P0 items **require PI team input** and cannot proceed independently:
 
 ---
 
-## �🚨 P0: CRITICAL BLOCKERS (Must Complete Before IRB Submission)
+## 🚨 P0: CRITICAL BLOCKERS (Must Complete Before IRB Submission)
 
 ### P0-1: Robert Deeble Credentials Conflict ⏰ URGENT
 **Status**: ❌ BLOCKER
