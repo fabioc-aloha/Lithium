@@ -335,8 +335,8 @@ Evaluate the scientific evidence for lithium supplementation as a preventive int
 | --- | --- | --- |
 | **Preparation** | Now - Q2 2026 | Monitor LATTICE results, Yankner trial registration |
 | **Protocol Development** | Q3 2026 | Design observational cohort, IRB consultation |
-| **Phase 1 Pilot** | 2027 | N=20-30 in counseling practice, feasibility assessment |
-| **Phase 2 Expansion** | 2028 | Multi-practitioner, effect size calculation |
+| **Phase 1 Pilot** | June 2026 | N=20-30 in counseling practice, feasibility assessment |
+| **Phase 2 Expansion** | 2027-2028 | Multi-practitioner, effect size calculation |
 | **Phase 3 Validation** | 2029+ | Formal RCT collaboration if Phase 2 positive |
 
 ### Critical Decision Points
