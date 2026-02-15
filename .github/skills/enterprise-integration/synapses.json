@@ -2,7 +2,7 @@
   "$schema": "../SYNAPSE-SCHEMA.json",
   "skillId": "enterprise-integration",
   "version": "1.1.0",
-  "lastUpdated": "2026-02-10",
+  "lastUpdated": "2026-02-15",
   "inheritance": "heir:vscode",
   "connections": [
     {
@@ -22,18 +22,6 @@
       "type": "requires",
       "strength": 0.8,
       "reason": "Enterprise auth requires security review"
-    },
-    {
-      "target": "platforms/vscode-extension/src/enterprise/microsoftGraph.ts",
-      "type": "implements",
-      "strength": 0.95,
-      "reason": "Primary implementation of Graph integration patterns"
-    },
-    {
-      "target": "platforms/vscode-extension/src/enterprise/enterpriseAuth.ts",
-      "type": "implements",
-      "strength": 0.9,
-      "reason": "Enterprise authentication implementation"
     }
   ],
   "schemaVersion": "2.1.0",

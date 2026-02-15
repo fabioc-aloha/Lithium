@@ -1,71 +1,29 @@
 ---
-name: "Alex Global Knowledge Skill"
-description: "Cross-project knowledge search, pattern recognition, and insight retrieval from Alex's global memory"
+name: "global-knowledge"
+description: "Cross-project knowledge search, pattern recognition, and insight management — the long-term memory across all projects"
 ---
 
-# Alex Global Knowledge Skill
+# Global Knowledge Skill
 
-Expert in cross-project knowledge search, pattern recognition, and insight retrieval.
-
-## Capabilities
-
-- Search knowledge learned across ALL projects
-- Find reusable patterns and solutions
-- Retrieve insights from past experiences
-- Connect current problems to prior solutions
-- Save new insights for future projects
-
-## When to Use This Skill
-
-- User asks about patterns or "how I did this before"
-- Looking for solutions tried in other projects
-- Searching for reusable code patterns
-- Saving valuable learnings for future use
-- Asking about cross-project experience
-
-## Example Prompts
-
-- "Have I solved this error before?"
-- "Search my knowledge for authentication patterns"
-- "What do I know about rate limiting?"
-- "Save this insight for future projects"
-- "Find patterns related to caching"
-
-## Input Expectations
-
-- Search query or topic
-- Type filter: pattern (reusable) or insight (specific learning)
-- Category filter (optional): error-handling, api-design, testing, etc.
-- Tags filter (optional): technology-specific tags
-
-## Output Format
-
-- Matching patterns/insights with relevance
-- Source project information
-- Application suggestions for current context
-- Related knowledge recommendations
+> Your past solved problems, searchable from any project.
 
 ## Knowledge Types
 
-### Patterns (GK-*)
-Reusable, generalizable solutions that apply across projects:
-- Design patterns
-- Error handling strategies
-- API conventions
-- Testing approaches
+| Type | Prefix | Purpose | Lifespan | Example |
+|------|--------|---------|----------|---------|
+| **Pattern** | GK-* | Reusable solution, proven in 2+ projects | Long-term | `GK-error-handling-patterns.md` |
+| **Insight** | GI-* | Timestamped observation, may not generalize | Medium-term | `GI-react-hooks-gotcha-2026-01-24.md` |
 
-### Insights (GI-*)
-Specific learnings from particular situations:
-- Debugging breakthroughs
-- Configuration discoveries
-- Performance fixes
-- Integration solutions
+**Key distinction**: A pattern is abstracted and proven. An insight is specific and dated. Insights may be promoted to patterns after validation.
 
-## Related Skills
+## Commands
 
-- [Meditation](.github/skills/meditation/SKILL.md) - Save insights after sessions
-- [Architecture Health](.github/skills/architecture-health/SKILL.md) - Check knowledge health
-- [Bootstrap Learning](.github/skills/bootstrap-learning/SKILL.md) - Build new knowledge
+| Command | Purpose |
+|---------|----------|
+| `/knowledge <query>` | Search patterns + insights |
+| `/saveinsight` | Capture learning from current session |
+| `/promote` | Promote local knowledge to global pattern |
+| `/knowledgestatus` | Check GK health and stats |
 
 ## Memory System Differentiation (VS Code 1.109+)
 
@@ -156,7 +114,7 @@ When scanning project knowledge for promotion candidates, use these patterns to 
 
 ### Automated Scoring (Score ≥5 = Candidate)
 
-The extension evaluates DK files with this scoring:
+The extension evaluates skill files with this scoring:
 
 | Criteria | Points | Detection |
 |----------|--------|-----------|
@@ -175,9 +133,9 @@ The extension evaluates DK files with this scoring:
 ```
 Is this knowledge?
 ├── Personal preference → Copilot Memory (not GK)
-├── Project-specific config → Keep in project DK
+├── Project-specific config → Keep in project skills
 ├── Would I search for this in another project?
-│   ├── No → Keep in project DK
+│   ├── No → Keep in project skills
 │   └── Yes → Continue...
 │       ├── Is it a reusable solution? → Pattern (GK-*)
 │       └── Is it a timestamped learning? → Insight (GI-*)
@@ -204,8 +162,8 @@ When curating from multiple projects:
 | Source Type | Priority | Rationale |
 |-------------|----------|-----------|
 | Master Alex episodic memories | Highest | Core cognitive learnings |
-| Production project DK files | High | Battle-tested knowledge |
-| Platform heir DK files | Medium | May have implementation-specific details |
+| Production project skill files | High | Battle-tested knowledge |
+| Platform heir skill files | Medium | May have implementation-specific details |
 | Research/experimental projects | Lower | May not be validated |
 | Archive content | Lowest | May be outdated |
 

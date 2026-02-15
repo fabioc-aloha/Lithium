@@ -18,56 +18,56 @@
   "schemaVersion": "2.1.0",
   "synapses": [
     {
-      "target": "defense-qa-practice",
+      "target": ".github/skills/defense-qa-practice/SKILL.md",
       "type": "procedural",
       "strength": "critical",
       "direction": "bidirectional",
       "context": "Q&A practice is core to defense preparation"
     },
     {
-      "target": "defense-presentation",
+      "target": ".github/skills/defense-presentation/SKILL.md",
       "type": "procedural",
       "strength": "critical",
       "direction": "bidirectional",
       "context": "Presentation design and delivery for defense"
     },
     {
-      "target": "gamma-presentations",
+      "target": ".github/skills/gamma-presentations/SKILL.md",
       "type": "procedural",
       "strength": "strong",
       "direction": "outgoing",
       "context": "AI-powered slide generation with Duarte methodology"
     },
     {
-      "target": "academic-research",
+      "target": ".github/skills/academic-research/SKILL.md",
       "type": "conceptual",
       "strength": "strong",
       "direction": "incoming",
       "context": "Research methodology foundations"
     },
     {
-      "target": "practitioner-research",
+      "target": ".github/skills/practitioner-research/SKILL.md",
       "type": "conceptual",
       "strength": "critical",
       "direction": "incoming",
       "context": "DBA/practitioner methodology for applied research"
     },
     {
-      "target": "socratic-questioning",
+      "target": ".github/skills/socratic-questioning/SKILL.md",
       "type": "procedural",
       "strength": "moderate",
       "direction": "incoming",
       "context": "Question handling and response techniques"
     },
     {
-      "target": "writing-publication",
+      "target": ".github/skills/writing-publication/SKILL.md",
       "type": "conceptual",
       "strength": "moderate",
       "direction": "incoming",
       "context": "Academic writing patterns for dissertation"
     },
     {
-      "target": "work-life-balance",
+      "target": ".github/skills/work-life-balance/SKILL.md",
       "type": "supportive",
       "strength": "moderate",
       "direction": "incoming",

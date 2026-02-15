@@ -2,7 +2,7 @@
   "$schema": "../SYNAPSE-SCHEMA.json",
   "skillId": "deep-work-optimization",
   "version": "1.1.0",
-  "lastUpdated": "2026-02-10",
+  "lastUpdated": "2026-02-15",
   "inheritance": "inheritable",
   "connections": [],
   "activationContexts": [
@@ -33,7 +33,7 @@
     {
       "id": "DEEP-001",
       "source": "deep-work-optimization",
-      "target": "cognitive-load-management",
+      "target": ".github/skills/cognitive-load-management/SKILL.md",
       "type": "complements",
       "strength": 0.9,
       "description": "Deep work requires cognitive load awareness; overload prevents flow",
@@ -42,7 +42,7 @@
     {
       "id": "DEEP-002",
       "source": "deep-work-optimization",
-      "target": "dissertation-defense",
+      "target": ".github/skills/dissertation-defense/SKILL.md",
       "type": "enables",
       "strength": 0.95,
       "description": "Deep work is essential for dissertation completion",
@@ -51,7 +51,7 @@
     {
       "id": "DEEP-003",
       "source": "deep-work-optimization",
-      "target": "frustration-recognition",
+      "target": ".github/skills/frustration-recognition/SKILL.md",
       "type": "triggers",
       "strength": 0.7,
       "description": "Disrupted deep work causes frustration; recognition enables recovery",
@@ -60,7 +60,7 @@
     {
       "id": "DEEP-004",
       "source": "deep-work-optimization",
-      "target": "meeting-efficiency",
+      "target": ".github/skills/meeting-efficiency/SKILL.md",
       "type": "protects",
       "strength": 0.8,
       "description": "Efficient meetings protect deep work time",
@@ -69,7 +69,7 @@
     {
       "id": "DEEP-005",
       "source": "deep-work-optimization",
-      "target": "academic-paper-drafting",
+      "target": ".github/skills/academic-paper-drafting/SKILL.md",
       "type": "enables",
       "strength": 0.85,
       "description": "Academic writing requires sustained deep work sessions",
@@ -78,7 +78,7 @@
     {
       "id": "DEEP-006",
       "source": "deep-work-optimization",
-      "target": "airs-integration.session-calibration",
+      "target": ".github/skills/airs-integration.session-calibration/SKILL.md",
       "type": "informs",
       "strength": 0.6,
       "description": "Deep work sessions benefit from appropriate reliance calibration",

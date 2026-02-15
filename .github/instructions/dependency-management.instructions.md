@@ -1,3 +1,8 @@
+---
+description: "Dependency security, version management, and upgrade protocols"
+applyTo: "**/*package*.json,**/requirements*.txt,**/Cargo.toml,**/go.mod,**/pom.xml"
+---
+
 # Dependency Management Procedural Memory
 
 **Classification**: Procedural Memory | Security & Maintenance  

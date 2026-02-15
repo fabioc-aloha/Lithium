@@ -1,7 +1,7 @@
 {
   "$schema": "../SYNAPSE-SCHEMA.json",
   "skillId": "bootstrap-learning",
-  "lastUpdated": "2026-02-10",
+  "lastUpdated": "2026-02-15",
   "inheritance": "inheritable",
   "connections": [
     {
@@ -21,6 +21,18 @@
       "type": "enables",
       "strength": 0.9,
       "reason": "Learning builds trust"
+    },
+    {
+      "target": ".github/skills/research-first-development/SKILL.md",
+      "type": "enables",
+      "strength": 0.85,
+      "reason": "Bootstrap learning feeds research-first knowledge acquisition"
+    },
+    {
+      "target": ".github/skills/muscle-memory-recognition/SKILL.md",
+      "type": "enables",
+      "strength": 0.85,
+      "reason": "Learning identifies repetitive patterns that become automation"
     }
   ],
   "triggers": [

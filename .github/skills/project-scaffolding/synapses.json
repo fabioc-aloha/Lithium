@@ -1,7 +1,7 @@
 {
   "$schema": "../SYNAPSE-SCHEMA.json",
   "skillId": "project-scaffolding",
-  "lastUpdated": "2026-02-10",
+  "lastUpdated": "2026-02-15",
   "inheritance": "inheritable",
   "connections": [
     {
@@ -27,6 +27,12 @@
       "type": "enables",
       "strength": 0.85,
       "reason": "Proper gitignore and structure"
+    },
+    {
+      "target": ".github/skills/research-first-development/SKILL.md",
+      "type": "extends",
+      "strength": 0.85,
+      "reason": "Research-first adds knowledge layer before file scaffolding"
     }
   ],
   "triggers": [

@@ -1,3 +1,8 @@
+---
+description: "Skill promotion workflow from heir projects to Master Alex"
+excludeAgent: "coding-agent"
+---
+
 # Heir Skill Promotion Protocol
 
 > How skills evolve from heir projects to Master Alex
@@ -5,6 +10,7 @@
 **Synapse**: [.github/instructions/bootstrap-learning.instructions.md] (High, Enables, Bidirectional) - "heir develops expertise through learning"
 **Synapse**: [.github/skills/global-knowledge/SKILL.md] (High, Documents, Forward) - "promotion candidate patterns"
 **Synapse**: [.github/skills/skill-building/SKILL.md] (Critical, Implements, Bidirectional) - "skill creation methodology and quality gates"
+**Synapse**: [.github/instructions/heir-project-improvement.instructions.md] (High, Extends, Forward) - "heir improvement combines trifecta + research-first before promotion"
 
 ---
 
@@ -82,16 +88,28 @@ Calculate before promoting:
 - **<8**: Keep developing in heir
 
 **Consolidation check**: If related skills exist in Master, merge rather than add.
-See [GI-heir-skill-consolidation-kiss-merge-2026-02-10](../../../Alex-Global-Knowledge/insights/GI-heir-skill-consolidation-kiss-merge-2026-02-10.md)
+
+### 4.7. Trifecta Completeness Check
+
+Before promoting, assess whether the capability is a trifecta candidate:
+
+| Question | Answer | Implication |
+|----------|--------|-------------|
+| Was this a trifecta in the heir? (skill + instruction + prompt) | Yes → promote all three | No → promote skill only |
+| Does the heir instruction contain platform-specific steps? | Yes → adapt or skip instruction | No → promote as-is |
+| Is the capability user-invocable in Master context? | Yes → promote the prompt | No → skip prompt |
+| Does it pass the heir Why Test? (see `trifecta-audit.instructions.md`) | Yes → trifecta candidate | No → single-file promotion |
+
+**Rule**: Never promote a trifecta partially. Either all applicable components promote, or document why some were excluded.
 
 ### 5. Promote to Master
 **Option A**: Copy skill folder from heir to Master's `.github/skills/`
 
-**Option B**: Use `alex_promote_knowledge` tool if it's a DK file
+**Option B**: Use `alex_knowledge_promote` tool to promote a skill to global knowledge
 
 ### 6. Update Master's Catalog
 - Add to `copilot-instructions.md` skill list
-- Regenerate `SKILL-CATALOG-GENERATED.md`
+- Update `alex_docs/skills/SKILLS-CATALOG.md`
 
 ---
 
@@ -145,11 +163,111 @@ weak/minimal → 0.3
 ### Philosophy
 > **Never lose heir-created work.** Skills represent hard-won expertise from real projects. The upgrade process auto-restores everything recommended; only stale items (>90 days) require manual review.
 
-**Synapse**: [platforms/vscode-extension/src/upgrade.ts] (0.9, implements, forward) - "normalizeAllSynapses() executes this"
+**External Implementation**: VS Code extension upgrade module (0.9, implements) - "normalizeAllSynapses() executes this"
 
 ### External Knowledge
 - GI-heir-skill-consolidation-kiss-merge-2026-02-10 (0.85, validates) - "KISS merge pattern discovered Feb 2026"
+- GI-heir-contamination-pattern-sync-script-o-2026-02-12 (0.9, warns) - "Sync script overwrites heir-specific fixes"
 
 ---
 
 *Skills are earned through doing, not declared by planning.*
+---
+
+## Reverse Flow: Wishlist Fulfillment
+
+> How Master Alex fulfills wishlist items and distributes to heirs
+
+### The Wishlist Feedback Loop
+
+```
+┌─────────────┐  signals   ┌──────────────────┐  fulfills  ┌─────────────────┐
+│    Heirs    │──────────▶│    Wishlist      │───────────▶│   Master Alex   │
+│ (projects)  │           │ skill-registry   │            │ creates skill   │
+└─────────────┘           └──────────────────┘            └────────┬────────┘
+       ▲                                                          │
+       │                   ┌──────────────────┐                   │
+       └───────────────────│ Global Knowledge │◀──────────────────┘
+            pulls          │ skills/          │     pushes
+                           └──────────────────┘
+```
+
+### When Master Fulfills Wishlist
+
+1. **Review wishlist** in `skill-registry.json` (prioritize "high" items)
+2. **Create skill** in Master's `.github/skills/{skill-name}/`
+3. **Push to Global Knowledge**: `Copy-Item -Recurse` to `Alex-Global-Knowledge/skills/`
+4. **Update registry**: Move from `wishlist.items` to `recentlyFulfilled`
+5. **Commit both repos**: Master Alex + Global Knowledge
+
+### Wishlist Item Lifecycle
+
+| Status | Location | Meaning |
+|--------|----------|---------|
+| **Pending** | `wishlist.items[]` | Skill requested but not yet built |
+| **Fulfilled** | `recentlyFulfilled[]` + `skills[]` | Skill built and available |
+| **Already exists** | `fulfilledBy` field | Wishlist item covered by existing skill |
+
+### Example: February 2026 Batch
+
+```json
+{
+  "recentlyFulfilled": [
+    { "id": "multi-agent-orchestration", "fulfilledBy": "multi-agent-orchestration", "fulfilledDate": "2026-02-11" },
+    { "id": "observability-monitoring", "fulfilledBy": "observability-monitoring", "fulfilledDate": "2026-02-11" },
+    { "id": "database-design", "fulfilledBy": "database-design", "fulfilledDate": "2026-02-11" },
+    { "id": "performance-profiling", "fulfilledBy": "performance-profiling", "fulfilledDate": "2026-02-11" }
+  ]
+}
+```
+
+### Heir Discovery
+
+Heirs detect new skills via:
+- `/checkskills` command
+- Session start auto-check (if enabled)
+- Project type matching against `projectSignals`
+
+**External Integration**: Global Knowledge skill registry (`~/.alex/global-knowledge/skills/`) tracks wishlist and skill distribution.
+
+---
+
+## Extension Commands: Skill Inheritance
+
+### `Alex: Inherit Skill from Global Knowledge`
+
+Manual command for heirs to pull skills from Global Knowledge:
+
+```
+Command Palette → Alex: Inherit Skill from Global Knowledge
+```
+
+**Features**:
+- Multi-select QuickPick (batch inheritance)
+- Shows only `inheritance: "inheritable"` skills not already present
+- Adds `inheritedFrom` tracking to `synapses.json`
+- Master Alex protection warning (kill switch aware)
+
+**Inheritance Tracking**:
+```json
+{
+  "inheritedFrom": {
+    "source": "global-knowledge",
+    "registryId": "bicep-avm-mastery",
+    "version": "1.0.0",
+    "inheritedAt": "2026-02-11T15:00:00Z"
+  }
+}
+```
+
+### `Alex: Setup Global Knowledge`
+
+Configure Global Knowledge location:
+
+1. **Developer mode**: Links existing repo via junction symlink
+2. **End user mode**: Clones from GitHub to `~/.alex/global-knowledge/`
+
+**Auto-setup** runs silently on extension activation.
+
+**External Implementation**: VS Code extension inheritSkill command (High, Implements) - "skill inheritance command"
+**External Implementation**: VS Code extension setupGlobalKnowledge command (High, Implements) - "auto-setup functionality"

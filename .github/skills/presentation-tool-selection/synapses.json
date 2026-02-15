@@ -1,7 +1,7 @@
 {
   "$schema": "../SYNAPSE-SCHEMA.json",
   "skillId": "presentation-tool-selection",
-  "lastUpdated": "2026-02-10",
+  "lastUpdated": "2026-02-15",
   "inheritance": "inheritable",
   "connections": [
     {
@@ -15,18 +15,6 @@
       "type": "coordinates",
       "strength": 0.95,
       "reason": "Routes programmatic/data-driven requests to PptxGenJS skill"
-    },
-    {
-      "target": "alex_docs/gamma/MARP-AUTOMATION-PLAN.md",
-      "type": "references",
-      "strength": 0.85,
-      "reason": "Marp automation patterns and template workflows"
-    },
-    {
-      "target": "alex_docs/gamma/PRESENTATION-VISUALIZATION-ECOSYSTEM-2026.md",
-      "type": "references",
-      "strength": 0.8,
-      "reason": "Comprehensive ecosystem research for tool comparison"
     },
     {
       "target": ".github/skills/text-to-speech/SKILL.md",

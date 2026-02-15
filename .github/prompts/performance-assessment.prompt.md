@@ -1,3 +1,8 @@
+---
+agent: Alex
+description: Learning effectiveness evaluation and performance assessment
+---
+
 # Performance Assessment Protocol
 
 ## Learning Effectiveness Evaluation
@@ -16,7 +21,7 @@
 
 ### Cognitive Load Optimization
 - **Working Memory Efficiency**: Optimal use of 7-rule enhanced capacity
-- **Domain Priority Management**: Effective allocation of P5-P7 slots
+- **Domain Priority Management**: Effective allocation of Focus Trifectas via Active Context
 - **Consolidation Timing**: Appropriate use of meditation protocols
 - **System Performance**: Overall cognitive architecture responsiveness
 

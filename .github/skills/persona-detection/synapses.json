@@ -1,0 +1,30 @@
+{
+  "$schema": "../SYNAPSE-SCHEMA.json",
+  "skillId": "persona-detection",
+  "version": "1.1.0",
+  "lastUpdated": "2026-02-15",
+  "inheritance": "heir:vscode",
+  "connections": [
+    {
+      "target": ".github/instructions/alex-core.instructions.md",
+      "type": "references",
+      "strength": 0.7,
+      "note": "Active Context persona field updated by persona detection"
+    },
+    {
+      "target": ".github/skills/release-process/SKILL.md",
+      "type": "validates",
+      "strength": 0.7,
+      "note": "Persona detection tested during pre-publish"
+    }
+  ],
+  "schemaVersion": "2.0.0",
+  "activationBoost": [
+    "persona",
+    "project type",
+    "auto-detect",
+    "active context",
+    "focus trifectas",
+    "persona detection"
+  ]
+}

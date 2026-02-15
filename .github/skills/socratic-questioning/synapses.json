@@ -2,7 +2,7 @@
   "$schema": "../SYNAPSE-SCHEMA.json",
   "skillId": "socratic-questioning",
   "version": "1.2.0",
-  "lastUpdated": "2026-02-10",
+  "lastUpdated": "2026-02-15",
   "inheritance": "inheritable",
   "connections": [
     {

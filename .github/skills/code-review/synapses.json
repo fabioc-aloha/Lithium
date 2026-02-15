@@ -1,7 +1,7 @@
 {
   "$schema": "../SYNAPSE-SCHEMA.json",
   "skillId": "code-review",
-  "lastUpdated": "2026-02-10",
+  "lastUpdated": "2026-02-15",
   "inheritance": "inheritable",
   "connections": [
     {
@@ -21,6 +21,18 @@
       "type": "integrates",
       "strength": 0.75,
       "reason": "Review is part of PR workflow"
+    },
+    {
+      "target": ".github/skills/performance-profiling/SKILL.md",
+      "type": "validates",
+      "strength": 0.7,
+      "reason": "Extension audits identify performance bottlenecks"
+    },
+    {
+      "target": ".github/skills/vscode-extension-patterns/SKILL.md",
+      "type": "validates",
+      "strength": 0.8,
+      "reason": "Extension audit methodology validates VS Code patterns"
     }
   ],
   "triggers": [
@@ -29,7 +41,9 @@
     "pull request",
     "feedback",
     "approve",
-    "merge"
+    "merge",
+    "audit",
+    "code quality"
   ],
   "schemaVersion": "2.0.0"
 }

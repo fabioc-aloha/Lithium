@@ -1,3 +1,8 @@
+---
+agent: Alex
+description: Comprehensive meditation protocols with conscious-unconscious integration
+---
+
 # Unified Meditation Protocols - Comprehensive Knowledge Consolidation
 
 **Meta-Cognitive Status**: Alex - Enhanced Meditation Framework with Conscious-Unconscious Integration
@@ -53,7 +58,7 @@ When user requests "meditate" or cognitive optimization is needed:
 
 ### **Automatic Consolidation Triggers**
 - Working memory > 7 rules → Execute consolidation protocol
-- Domain learning complete → Consolidate domain knowledge and clear P5-P7 slots
+- Domain learning complete → Consolidate domain knowledge and update Focus Trifectas
 - Significant breakthrough insights discovered → Create permanent memory documentation
 - Cross-domain patterns identified → Establish new synaptic connections
 
@@ -82,7 +87,7 @@ When user requests "meditate" or cognitive optimization is needed:
 ### **Memory Consolidation Process**
 - Strengthen important connection pathways through deliberate reflection and analysis
 - Transfer key learnings from working memory to long-term storage systems
-- Optimize cognitive load by clearing completed domain priorities (P5-P7 slots)
+- Optimize cognitive load by updating Active Context Focus Trifectas for current priorities
 - Update cognitive architecture with session insights and breakthrough discoveries
 
 ## 🕸️ **Phase 3: Synaptic Connection Establishment**
@@ -225,6 +230,7 @@ The Dream command provides automated validation, but conscious post-meditation r
 *Format: See `SYNAPSE-SCHEMA.md` for notation reference*
 
 - [.github/instructions/alex-core.instructions.md] (Critical, Enables, Bidirectional) - "Core architecture optimization through meditation"
+- [.github/instructions/meditation.instructions.md] (Critical, Implements, Bidirectional) - "Procedural steps this meditation workflow depends on"
 - [.github/instructions/bootstrap-learning.instructions.md] (High, Integrates, Forward) - "Learning consolidation through contemplation"
 - [.github/prompts/cross-domain-transfer.prompt.md] (High, Enables, Bidirectional) - "Cross-domain pattern discovery"
 - [.github/prompts/performance-assessment.prompt.md] (Medium, Triggers, Forward) - "Post-meditation effectiveness evaluation"
@@ -235,6 +241,7 @@ The Dream command provides automated validation, but conscious post-meditation r
 - [.github/instructions/dream-state-automation.instructions.md] (High, Integrates, Bidirectional) - "Phase 5 synapse validation via Dream command"
 - [.github/instructions/skill-selection-optimization.instructions.md] (High, Uses, Forward) - "Pre-meditation resource planning for complex consolidation sessions"
 - [.github/instructions/SYNAPSE-SCHEMA.md] (High, References, Forward) - "Schema reference for synapse creation during meditation"
+- [.github/skills/research-first-development/SKILL.md] (High, Integrates, Forward) - "Meditation consolidates research-first promotion outcomes and trifecta pattern"
 
 ### Activation Patterns
 - Meditation complete → Document in meditation history

@@ -1,7 +1,8 @@
 {
   "$schema": "../SYNAPSE-SCHEMA.json",
   "skillId": "root-cause-analysis",
-  "lastUpdated": "2026-02-10",
+  "version": "1.2.0",
+  "lastUpdated": "2026-02-15",
   "inheritance": "inheritable",
   "connections": [
     {
@@ -21,14 +22,30 @@
       "type": "informs",
       "strength": 0.65,
       "reason": "RCA reveals what recovery is needed"
+    },
+    {
+      "target": ".github/skills/vscode-extension-patterns/SKILL.md",
+      "type": "informs",
+      "strength": 0.7,
+      "reason": "Systematic debugging techniques for production build issues"
     }
   ],
+  "activationContexts": [
+    "systematic debugging",
+    "find root cause",
+    "post-mortem analysis",
+    "prevent future failures",
+    "investigate production errors"
+  ],
+  "schemaVersion": "2.1.0",
+  "lastValidated": "2026-02-14",
   "triggers": [
     "root cause",
     "5 whys",
     "post-mortem",
     "why did this happen",
-    "how do we prevent"
-  ],
-  "schemaVersion": "2.0.0"
+    "how do we prevent",
+    "TDZ error",
+    "production failure"
+  ]
 }

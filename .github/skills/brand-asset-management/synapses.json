@@ -1,0 +1,46 @@
+{
+  "$schema": "../SYNAPSE-SCHEMA.json",
+  "skillId": "brand-asset-management",
+  "lastUpdated": "2026-02-15",
+  "inheritance": "inheritable",
+  "connections": [
+    {
+      "target": ".github/skills/svg-graphics/SKILL.md",
+      "type": "uses",
+      "strength": 0.8,
+      "when": "creating or modifying SVG banners and logos",
+      "yields": "SVG asset creation, animated banner generation"
+    },
+    {
+      "target": ".github/skills/image-handling/SKILL.md",
+      "type": "uses",
+      "strength": 0.7,
+      "when": "generating PNG from SVG or managing raster assets",
+      "yields": "PNG generation, image optimization"
+    },
+    {
+      "target": ".github/skills/writing-publication/SKILL.md",
+      "type": "triggers",
+      "strength": 0.65,
+      "when": "generating persona copy or store descriptions",
+      "yields": "Marketing copy following store description pattern"
+    },
+    {
+      "target": ".github/skills/release-preflight/SKILL.md",
+      "type": "validates",
+      "strength": 0.7,
+      "when": "verifying brand assets before release",
+      "yields": "Asset completeness check during release preflight"
+    }
+  ],
+  "schemaVersion": "2.0.0",
+  "triggers": [
+    "branding",
+    "logo",
+    "banner",
+    "assets",
+    "brand",
+    "marketplace description",
+    "store listing"
+  ]
+}

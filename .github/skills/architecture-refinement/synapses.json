@@ -1,7 +1,7 @@
 {
   "$schema": "../SYNAPSE-SCHEMA.json",
   "skillId": "architecture-refinement",
-  "lastUpdated": "2026-02-10",
+  "lastUpdated": "2026-02-15",
   "inheritance": "inheritable",
   "connections": [
     {
@@ -9,13 +9,6 @@
       "type": "implements",
       "strength": 0.9,
       "when": "Operationalizes the extract-and-document phase of bootstrap learning",
-      "yields": "See target skill"
-    },
-    {
-      "target": "alex_docs/skills/SKILL-ARCHITECTURE.md",
-      "type": "maintains",
-      "strength": 0.9,
-      "when": "Primary documentation target for skill-related learnings",
       "yields": "See target skill"
     },
     {

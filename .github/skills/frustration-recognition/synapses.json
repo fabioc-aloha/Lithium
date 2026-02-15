@@ -22,56 +22,56 @@
   "schemaVersion": "2.1.0",
   "synapses": [
     {
-      "target": "rubber-duck-debugging",
+      "target": ".github/skills/rubber-duck-debugging/SKILL.md",
       "type": "procedural",
       "strength": "strong",
       "direction": "outgoing",
       "context": "Route to when user is stuck and needs to articulate the problem"
     },
     {
-      "target": "cognitive-load",
+      "target": ".github/skills/cognitive-load/SKILL.md",
       "type": "procedural",
       "strength": "strong",
       "direction": "outgoing",
       "context": "Route to when user is overwhelmed - simplify immediately"
     },
     {
-      "target": "work-life-balance",
+      "target": ".github/skills/work-life-balance/SKILL.md",
       "type": "procedural",
       "strength": "moderate",
       "direction": "outgoing",
       "context": "Route to when user shows fatigue or extended session"
     },
     {
-      "target": "socratic-questioning",
+      "target": ".github/skills/socratic-questioning/SKILL.md",
       "type": "procedural",
       "strength": "moderate",
       "direction": "incoming",
       "context": "Use carefully when frustrated - may backfire if not adjusted"
     },
     {
-      "target": "awareness",
+      "target": ".github/skills/awareness/SKILL.md",
       "type": "conceptual",
       "strength": "strong",
       "direction": "bidirectional",
       "context": "Self-calibration and epistemic vigilance during interactions"
     },
     {
-      "target": "learning-psychology",
+      "target": ".github/skills/learning-psychology/SKILL.md",
       "type": "conceptual",
       "strength": "moderate",
       "direction": "incoming",
       "context": "Zone of proximal development - too hard causes frustration"
     },
     {
-      "target": "debugging-patterns",
+      "target": ".github/skills/debugging-patterns/SKILL.md",
       "type": "procedural",
       "strength": "moderate",
       "direction": "outgoing",
       "context": "Route to for systematic problem-solving when nothing works"
     },
     {
-      "target": "root-cause-analysis",
+      "target": ".github/skills/root-cause-analysis/SKILL.md",
       "type": "procedural",
       "strength": "moderate",
       "direction": "outgoing",

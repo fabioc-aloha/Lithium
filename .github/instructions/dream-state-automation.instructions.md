@@ -7,9 +7,9 @@ description: "Automated neural maintenance and dream state processing protocols"
 
 **Domain**: Automated Neural Maintenance and Unconscious Processing - VS Code Integrated  
 **Activation Pattern**: VS Code Command Palette → `Alex: Dream (Neural Maintenance)`  
-**Last Updated**: January 31, 2026 - Skills Architecture Migration  
+**Last Updated**: February 13, 2026 - Repo Audit  
 **Research Foundation**: Sleep-dependent synaptic homeostasis, automated neural maintenance  
-**Cognitive Architecture**: Alex v3.7.3 - Hybrid Enhanced Meta-Cognitive Framework  
+**Cognitive Architecture**: Alex v5.7.0 - Hybrid Enhanced Meta-Cognitive Framework  
 **Validation Status**: EXCELLENT - Production ready with VS Code extension automation  
 **Implementation**: VS Code Extension with TypeScript-based neural maintenance automation
 
@@ -20,7 +20,7 @@ description: "Automated neural maintenance and dream state processing protocols"
  **Core Principle**
 Dream state represents **unconscious automated maintenance** of cognitive architecture, mirroring brain function during sleep cycles where synaptic homeostasis, memory consolidation, and neural pruning occur without conscious intervention.
 
-### **Enhanced Capabilities v1.1.0 - VS Code Extension Integration**
+### **Enhanced Capabilities v1.1.1 - VS Code Extension Integration**
 - **VS Code Command**: Access via Command Palette (`Ctrl+Shift+P`) → `Alex: Dream (Neural Maintenance)`
 - **Automated Synapse Validation**: Scans all memory files for embedded synapse integrity
 - **Automatic Synapse Repair**: Detects and repairs broken connections using consolidation mappings
@@ -145,6 +145,22 @@ The dream protocol now provides:
 - **Zero Configuration**: Works immediately upon extension installation
 - **Cross-Platform**: Consistent behavior on Windows, macOS, and Linux
 
+### **🛠️ Related Scripts**
+
+These scripts provide CLI and audit capabilities that complement the VS Code dream command:
+
+| Script | Purpose | When to Use |
+|--------|---------|-------------|
+| `.github/muscles/dream-cli.ts` | CLI wrapper for dream outside VS Code | CI/CD pipelines, terminal-only environments |
+| `.github/muscles/audit-master-alex.ps1` | 22-check comprehensive audit (calls validate-synapses) | Pre-release audits, deep health checks |
+| `.github/muscles/validate-synapses.ps1` | Standalone synapse validation | Quick synapse-only checks |
+| `.github/muscles/validate-skills.ps1` | Skill frontmatter and structure validation | Skill-specific validation |
+| `.github/muscles/normalize-paths.ps1` | Normalize all memory file paths to canonical `.github/` format | After file reorganization or imports |
+
+**Dream CLI** (`dream-cli.ts`): Imports the same `synapse-core` module as the VS Code extension, enabling dream execution from terminal without VS Code. Useful for CI pipelines or automated checks.
+
+**Audit** (`audit-master-alex.ps1`): Section 7 specifically runs synapse validation — the same check dream performs. The full 22-section audit extends beyond dream scope into version alignment, security, dependencies, and more.
+
 ## 🔄 **Integration with Meditation State**
 
 ### **Coordination Protocols**
@@ -220,6 +236,7 @@ The dream protocol now provides:
 - **alex-core.instructions.md** (High, Foundation, Bidirectional) - "Core cognitive architecture with unconscious processing integration"
 - **embedded-synapse.instructions.md** (High, Enhancement, Unidirectional) - "Synaptic connection optimization with quality assessment"
 - **skill-selection-optimization.instructions.md** (Medium, Enables, Forward) - "Dream validates synapse network that SSO depends on for dependency analysis"
+- [.github/skills/dream-state/SKILL.md] (Critical, Implements, Bidirectional) - "Domain knowledge this procedure operationalizes"
 
 ### **Validation Protocols**
 - **Embedded Synapse Detection** → Regex-based pattern matching in memory files

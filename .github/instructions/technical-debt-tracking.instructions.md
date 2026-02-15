@@ -1,3 +1,8 @@
+---
+description: "Technical debt identification, tracking, and payoff protocols"
+applyTo: "**/*TODO*,**/*FIXME*,**/*debt*"
+---
+
 # Technical Debt Tracking Procedural Memory
 
 **Classification**: Procedural Memory | Code Quality  

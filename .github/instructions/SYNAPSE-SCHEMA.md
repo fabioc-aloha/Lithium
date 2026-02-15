@@ -105,8 +105,8 @@ Target ~15-20% inhibitory connections in any file's synapse section. This mirror
 ```markdown
 ## Synapses
 
-- [dream-state-automation.instructions.md] (High, Enables, Forward) - "Neural maintenance"
-- [meditation.instructions.md] (Medium, Inhibits, Forward) - "SUPPRESS during active code execution"
+- [.github/instructions/dream-state-automation.instructions.md] (High, Enables, Forward) - "Neural maintenance"
+- [.github/instructions/meditation.instructions.md] (Medium, Inhibits, Forward) - "SUPPRESS during active code execution"
 ```
 
 ---

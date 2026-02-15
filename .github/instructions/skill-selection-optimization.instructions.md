@@ -14,7 +14,7 @@ Proactive pre-task cognitive resource planning. Before executing complex tasks, 
 
 | System | Role | Timing |
 |--------|------|--------|
-| **Working Memory (P1-P7)** | Session-level slot assignment | Session start |
+| **Active Context** | Session-level persona + focus trifectas | Session start |
 | **Skill Selection Optimization** | Task-level resource planning | Before complex task |
 | **Skill Activation** (reactive) | Safety net during execution | During response formation |
 | **Deep Thinking** | Systematic problem analysis | During execution |
@@ -164,9 +164,9 @@ When deep thinking is also triggered:
 2. Deep Thinking Phase 2 (Episodic Memory Scan) → uses skill list as search guide
 3. Both systems share the same skill knowledge base
 
-### With Working Memory Slots
-- If Skill Selection identifies a dominant domain, update P6 slot accordingly
-- If task shifts domain mid-execution, re-evaluate P6 assignment
+### With Active Context
+- If Skill Selection identifies a dominant domain, it will be reflected in Focus Trifectas
+- If task shifts domain mid-execution, Pivot Detection Protocol re-evaluates focus
 
 ### With Reactive Skill Activation
 Skill Selection Optimization runs BEFORE execution. The reactive skill-activation system remains as a safety net DURING execution. If the reactive system fires, it means the proactive system missed something — that's a learning signal.
@@ -220,5 +220,6 @@ These signals should inform future skill selection accuracy — no formal loggin
 - ← `.github/skills/meditation/SKILL.md` — WHEN: complex consolidation session | YIELDS: pre-meditation resource planning
 - ← `.github/instructions/dream-state-automation.instructions.md` — WHEN: dream validates synapse network | YIELDS: healthy dependency graph for SSO analysis
 - ← `.github/instructions/self-actualization.instructions.md` — WHEN: deep assessment needs resource planning | YIELDS: pre-assessment skill survey
+- ← `.github/skills/research-first-development/SKILL.md` — WHEN: gap analysis creates skills | YIELDS: enriched skill pool for SSO selection
 - ⊙ `.github/instructions/dream-state-automation.instructions.md` — INHIBITS: suppress SSO during dream state (unconscious processing doesn't need task planning)
 - ⊙ `.github/prompts/unified-meditation-protocols.prompt.md` — INHIBITS: suppress SSO for simple meditation (only activate for complex multi-phase consolidation)

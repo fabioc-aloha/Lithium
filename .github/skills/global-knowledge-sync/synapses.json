@@ -1,7 +1,7 @@
 {
   "$schema": "../SYNAPSE-SCHEMA.json",
   "skillId": "global-knowledge-sync",
-  "lastUpdated": "2026-02-10",
+  "lastUpdated": "2026-02-15",
   "inheritance": "universal",
   "connections": [
     {
@@ -39,6 +39,12 @@
       "type": "accelerates",
       "strength": 0.7,
       "reason": "Problem Solving starter pattern includes rubber duck method"
+    },
+    {
+      "target": ".github/skills/skill-development/SKILL.md",
+      "type": "enables",
+      "strength": 0.85,
+      "reason": "Skill pull-sync enables heir wishlist fulfillment"
     }
   ],
   "schemaVersion": "2.0.0",
@@ -49,6 +55,10 @@
     "promote to global",
     "sync knowledge",
     "global knowledge sync",
-    "gk sync"
+    "gk sync",
+    "checkskills",
+    "check skills",
+    "pullskill",
+    "pull skill"
   ]
 }

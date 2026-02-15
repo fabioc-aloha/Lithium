@@ -1,3 +1,8 @@
+---
+description: "Code review quality gate protocols and feedback guidelines"
+applyTo: "**/*.{ts,js,tsx,jsx,py,ps1,cs,java,go,rs,rb}"
+---
+
 # Code Review Guidelines Procedural Memory
 
 **Classification**: Procedural Memory | Quality Assurance  

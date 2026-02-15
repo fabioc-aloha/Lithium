@@ -2,7 +2,7 @@
   "$schema": "../SYNAPSE-SCHEMA.json",
   "skillId": "ai-agent-design",
   "version": "1.2.0",
-  "lastUpdated": "2026-02-10",
+  "lastUpdated": "2026-02-15",
   "inheritance": "inheritable",
   "connections": [
     {
@@ -59,6 +59,14 @@
       "strength": 0.7,
       "type": "COMPLEMENTS",
       "when": "Agent testing requires specialized evaluation approaches",
+      "yields": "See target skill"
+    },
+    {
+      "target": ".github/skills/foundry-agent-platform/SKILL.md",
+      "strength": 0.9,
+      "bidirectional": true,
+      "type": "IMPLEMENTS",
+      "when": "Foundry Agent Service is the cloud runtime for agent design patterns",
       "yields": "See target skill"
     }
   ],

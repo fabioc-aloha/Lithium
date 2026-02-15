@@ -1,7 +1,7 @@
 {
   "$schema": "../SYNAPSE-SCHEMA.json",
   "skillId": "meditation",
-  "lastUpdated": "2026-02-10",
+  "lastUpdated": "2026-02-15",
   "inheritance": "inheritable",
   "connections": [
     {
@@ -45,6 +45,13 @@
       "strength": 0.7,
       "when": "meditation session involves complex multi-phase consolidation",
       "yields": "Pre-meditation skill survey, optimal phase ordering"
+    },
+    {
+      "target": ".github/skills/dream-state/SKILL.md",
+      "type": "coordinates-with",
+      "strength": 0.85,
+      "when": "Phase 5 post-meditation validation or pre-meditation health check",
+      "yields": "Clean architecture baseline, synapse validation"
     }
   ],
   "triggers": [

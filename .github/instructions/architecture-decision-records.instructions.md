@@ -1,3 +1,7 @@
+---
+description: "Architecture Decision Record (ADR) templates and documentation protocols"
+---
+
 # Architecture Decision Records (ADR) Procedural Memory
 
 **Classification**: Procedural Memory | Documentation  
