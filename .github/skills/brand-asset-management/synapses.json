@@ -1,9 +1,17 @@
 {
   "$schema": "../SYNAPSE-SCHEMA.json",
   "skillId": "brand-asset-management",
-  "lastUpdated": "2026-02-15",
+  "version": "1.1.0",
+  "lastUpdated": "2026-02-20",
   "inheritance": "inheritable",
   "connections": [
+    {
+      "target": ".github/skills/ai-generated-readme-banners/SKILL.md",
+      "type": "uses",
+      "strength": 0.9,
+      "when": "generating professional branded banner images",
+      "yields": "Photorealistic banners with brand colors and typography"
+    },
     {
       "target": ".github/skills/svg-graphics/SKILL.md",
       "type": "uses",
@@ -33,7 +41,8 @@
       "yields": "Asset completeness check during release preflight"
     }
   ],
-  "schemaVersion": "2.0.0",
+  "schemaVersion": "2.1.0",
+  "lastValidated": "2026-02-15",
   "triggers": [
     "branding",
     "logo",

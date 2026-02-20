@@ -1,8 +1,8 @@
 {
   "$schema": "../SYNAPSE-SCHEMA.json",
   "skillId": "vscode-extension-patterns",
-  "version": "1.2.0",
-  "lastUpdated": "2026-02-15",
+  "version": "1.5.0",
+  "lastUpdated": "2026-02-20",
   "inheritance": "heir:vscode",
   "connections": [
     {
@@ -10,6 +10,12 @@
       "type": "enables",
       "strength": 0.85,
       "reason": "Publishing workflow"
+    },
+    {
+      "target": ".github/instructions/vscode-marketplace-publishing.instructions.md",
+      "type": "implements",
+      "strength": 0.9,
+      "reason": "Marketplace publishing deployment patterns"
     },
     {
       "target": ".github/skills/security-review/SKILL.md",
@@ -22,6 +28,19 @@
       "type": "extends",
       "strength": 0.75,
       "reason": "Enterprise patterns for Graph, Azure AD auth"
+    },
+    {
+      "target": ".github/skills/root-cause-analysis/SKILL.md",
+      "type": "uses",
+      "strength": 0.7,
+      "reason": "TDZ debugging and production build troubleshooting"
+    },
+    {
+      "target": ".github/skills/ui-ux-design/SKILL.md",
+      "type": "implements",
+      "strength": 0.75,
+      "bidirectional": true,
+      "reason": "Webview UI patterns must follow accessibility standards"
     }
   ],
   "activationContexts": [
@@ -29,13 +48,25 @@
     "webview implementation",
     "publishing extension",
     "settings configuration",
+    "comprehensive settings management",
+    "documentation-first approach",
+    "tiered settings categories",
     "auto-detection features",
     "SecretStorage token migration",
     "CSP Content-Security-Policy",
     "telemetry opt-out compliance",
-    "onDidChangeConfiguration listener"
+    "onDidChangeConfiguration listener",
+    "VS Code 1.109+ chat settings",
+    "initialize/upgrade automation",
+    "temporal dead zone TDZ debugging",
+    "production build errors",
+    "minification issues",
+    "extension testing workflow",
+    "debug vs rebuild differences",
+    "VSIX packaging and installation"
   ],
-  "lastValidated": "2026-02-10",
+  "schemaVersion": "2.1.0",
+  "lastValidated": "2026-02-15",
   "triggers": [
     "extension",
     "VS Code API",
@@ -46,7 +77,15 @@
     "contribution point",
     "SecretStorage",
     "CSP",
-    "telemetry"
-  ],
-  "schemaVersion": "2.0.0"
+    "telemetry",
+    "settings management",
+    "documentation pattern",
+    "PowerShell automation",
+    "TDZ",
+    "minifier",
+    "production build",
+    "VSIX",
+    "rebuild",
+    "reinstall"
+  ]
 }

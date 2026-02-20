@@ -1,7 +1,7 @@
 {
   "$schema": "../SYNAPSE-SCHEMA.json",
   "skillId": "pii-privacy-regulations",
-  "lastUpdated": "2026-02-15",
+  "lastUpdated": "2026-02-20",
   "inheritance": "inheritable",
   "connections": [
     {
@@ -12,7 +12,7 @@
       "reason": "Deep dive into regulatory compliance aspects"
     },
     {
-      "target": ".github/skills/microsoft-sfi/SKILL.md",
+      "target": ".github/skills/security-review/SKILL.md",
       "type": "complements",
       "strength": 0.75,
       "bidirectional": true,

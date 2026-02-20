@@ -8,11 +8,11 @@
   "projectPersona": {
     "id": "researcher",
     "confidence": 0.95,
-    "detectedAt": "2026-02-15T18:03:39.954Z",
+    "detectedAt": "2026-02-20T07:17:31.758Z",
     "reasons": [
       "The project focuses on systematic evidence review and meta-analysis, which are core research activities.",
-      "The directory structure includes clinical protocols, literature synthesis, and research documentation, indicating a research-oriented workflow.",
-      "The README emphasizes collaboration between human researchers and AI for tasks like literature review and evidence evaluation, aligning with a research persona."
+      "The directory structure includes detailed documentation and protocols relevant to academic and clinical research.",
+      "The README emphasizes roles like literature synthesis, protocol development, and AI-augmented analysis, which align with research-oriented tasks."
     ]
   },
   "currentProjects": [],
@@ -27,5 +27,5 @@
   "questionFrequency": "moderate",
   "encouragement": true,
   "proactiveSuggestions": true,
-  "lastUpdated": "2026-02-15T18:03:39.954Z"
+  "lastUpdated": "2026-02-20T07:17:31.758Z"
 }

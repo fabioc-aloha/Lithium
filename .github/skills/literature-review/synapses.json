@@ -2,7 +2,7 @@
   "$schema": "../SYNAPSE-SCHEMA.json",
   "skillId": "literature-review",
   "version": "1.1.0",
-  "lastUpdated": "2026-02-15",
+  "lastUpdated": "2026-02-20",
   "inheritance": "inheritable",
   "connections": [],
   "activationContexts": [

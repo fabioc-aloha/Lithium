@@ -2,14 +2,14 @@
   "$schema": "../SYNAPSE-SCHEMA.json",
   "skillId": "persona-detection",
   "version": "1.1.0",
-  "lastUpdated": "2026-02-15",
+  "lastUpdated": "2026-02-20",
   "inheritance": "heir:vscode",
   "connections": [
     {
       "target": ".github/instructions/alex-core.instructions.md",
       "type": "references",
       "strength": 0.7,
-      "note": "Active Context persona field updated by persona detection"
+      "note": "P5-P7 working memory slots updated by persona detection"
     },
     {
       "target": ".github/skills/release-process/SKILL.md",
@@ -23,8 +23,9 @@
     "persona",
     "project type",
     "auto-detect",
-    "active context",
-    "focus trifectas",
-    "persona detection"
+    "P5 slot",
+    "P6 slot",
+    "P7 slot",
+    "working memory"
   ]
 }

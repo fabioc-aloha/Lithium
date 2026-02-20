@@ -1,7 +1,7 @@
 {
   "$schema": "../SYNAPSE-SCHEMA.json",
   "skillId": "markdown-mermaid",
-  "lastUpdated": "2026-02-15",
+  "lastUpdated": "2026-02-20",
   "inheritance": "inheritable",
   "connections": [
     {
